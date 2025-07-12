@@ -4,4 +4,6 @@
   (lib (name "0_integrated_circuits")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_integrated_circuits.pretty")(options "")(descr ""))
   (lib (name "0_capacitors")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_capacitors.pretty")(options "")(descr ""))
   (lib (name "0_resistors")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_resistors.pretty")(options "")(descr ""))
+  (lib (name "0_inductors")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_inductors.pretty")(options "")(descr ""))
+  (lib (name "0_diodes")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_diodes.pretty")(options "")(descr ""))
 )

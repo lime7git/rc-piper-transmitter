@@ -3470,6 +3470,24 @@
 			(pin passive line
 				(at 0 -5.08 0)
 				(length 5.08)
+				(name "COMP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 27.94 0 180)
+				(length 5.08)
 				(name "SW"
 					(effects
 						(font
@@ -3486,7 +3504,7 @@
 				)
 			)
 			(pin passive line
-				(at 27.94 0 180)
+				(at 27.94 -2.54 180)
 				(length 5.08)
 				(name "FB"
 					(effects
@@ -3496,24 +3514,6 @@
 					)
 				)
 				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 27.94 -2.54 180)
-				(length 5.08)
-				(name "COMP"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
