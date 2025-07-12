@@ -366,13 +366,13 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0d3f57b4-c187-4a55-b86f-03b2ea3da64b")
 	)
-	(pad "MP" smd rect
+	(pad "MP1" smd rect
 		(at -2.9 0.75)
 		(size 2 3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ae158d42-76cc-4911-a621-4cc28931c98b")
 	)
-	(pad "MP" smd rect
+	(pad "MP2" smd rect
 		(at 4.9 0.75)
 		(size 2 3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
