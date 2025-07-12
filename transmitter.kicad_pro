@@ -69,16 +69,19 @@
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
         "courtyards_overlap": "error",
+        "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
+        "footprint_filters_mismatch": "ignore",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
+        "hole_to_hole": "error",
         "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
@@ -89,9 +92,11 @@
         "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
+        "mirrored_text_on_front_layer": "warning",
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
         "net_conflict": "warning",
+        "nonmirrored_text_on_back_layer": "warning",
         "npth_inside_courtyard": "ignore",
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
@@ -103,10 +108,13 @@
         "solder_mask_bridge": "warning",
         "starved_thermal": "error",
         "text_height": "ignore",
+        "text_on_edge_cuts": "error",
         "text_thickness": "ignore",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
+        "track_angle": "error",
         "track_dangling": "warning",
+        "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
         "unconnected_items": "error",
@@ -119,6 +127,7 @@
         "min_clearance": 0.2,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.25,
+        "min_groove_width": 0.0,
         "min_hole_clearance": 0.254,
         "min_hole_to_hole": 0.254,
         "min_microvia_diameter": 0.2,
@@ -138,16 +147,17 @@
       },
       "teardrop_options": [
         {
-          "td_onpadsmd": true,
+          "td_onpthpad": true,
           "td_onroundshapesonly": false,
+          "td_onsmdpad": true,
           "td_ontrackend": false,
-          "td_onviapad": true
+          "td_onvia": true
         }
       ],
       "teardrop_parameters": [
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 5,
+          "td_curve_segcount": 1,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -158,7 +168,7 @@
         },
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 5,
+          "td_curve_segcount": 1,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -169,7 +179,7 @@
         },
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 5,
+          "td_curve_segcount": 1,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -504,30 +514,288 @@
         "wire_width": 6
       },
       {
+        "line_style": 0,
+        "name": "+3V3",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgb(0, 72, 0)",
+        "wire_width": 24
+      },
+      {
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 2,
         "schematic_color": "rgb(0, 0, 0)",
         "track_width": 0.2,
         "via_diameter": 0.55,
         "via_drill": 0.25,
         "wire_width": 24
+      },
+      {
+        "bus_width": 20,
+        "line_style": 3,
+        "name": "Length matching",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(255, 0, 0)",
+        "wire_width": 20
       }
     ],
     "meta": {
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_assignments": {
+      "/Project Architecture/MCU - IO/FMC_A0": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_A1": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_A10": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_A11": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_A2": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_A3": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_A4": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_A5": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_A6": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_A7": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_A8": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_A9": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_BA0": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_BA1": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_D0": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_D1": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_D10": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_D11": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_D12": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_D13": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_D14": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_D15": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_D2": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_D3": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_D4": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_D5": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_D6": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_D7": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_D8": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_D9": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_NBL0": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_NBL1": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_SDCKE0": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_SDCLK": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_SDNCAS": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_SDNE0": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_SDNRAS": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_SDNWE": [
+        "SDRAM"
+      ],
+      "/Project Architecture/Memory - SDRAM/FMC_A0": [
+        "SDRAM"
+      ],
+      "/Project Architecture/Memory - SDRAM/FMC_A1": [
+        "SDRAM"
+      ],
+      "/Project Architecture/Memory - SDRAM/FMC_A10": [
+        "SDRAM"
+      ],
+      "/Project Architecture/Memory - SDRAM/FMC_A11": [
+        "SDRAM"
+      ],
+      "/Project Architecture/Memory - SDRAM/FMC_A2": [
+        "SDRAM"
+      ],
+      "/Project Architecture/Memory - SDRAM/FMC_A3": [
+        "SDRAM"
+      ],
+      "/Project Architecture/Memory - SDRAM/FMC_A4": [
+        "SDRAM"
+      ],
+      "/Project Architecture/Memory - SDRAM/FMC_A5": [
+        "SDRAM"
+      ],
+      "/Project Architecture/Memory - SDRAM/FMC_A6": [
+        "SDRAM"
+      ],
+      "/Project Architecture/Memory - SDRAM/FMC_A7": [
+        "SDRAM"
+      ],
+      "/Project Architecture/Memory - SDRAM/FMC_A8": [
+        "SDRAM"
+      ],
+      "/Project Architecture/Memory - SDRAM/FMC_A9": [
+        "SDRAM"
+      ],
+      "/Project Architecture/Memory - SDRAM/FMC_BA0": [
+        "SDRAM"
+      ],
+      "/Project Architecture/Memory - SDRAM/FMC_BA1": [
+        "SDRAM"
+      ],
+      "/Project Architecture/Memory - SDRAM/FMC_D0": [
+        "SDRAM"
+      ],
+      "/Project Architecture/Memory - SDRAM/FMC_D1": [
+        "SDRAM"
+      ],
+      "/Project Architecture/Memory - SDRAM/FMC_D10": [
+        "SDRAM"
+      ],
+      "/Project Architecture/Memory - SDRAM/FMC_D11": [
+        "SDRAM"
+      ],
+      "/Project Architecture/Memory - SDRAM/FMC_D12": [
+        "SDRAM"
+      ],
+      "/Project Architecture/Memory - SDRAM/FMC_D13": [
+        "SDRAM"
+      ],
+      "/Project Architecture/Memory - SDRAM/FMC_D14": [
+        "SDRAM"
+      ],
+      "/Project Architecture/Memory - SDRAM/FMC_D15": [
+        "SDRAM"
+      ],
+      "/Project Architecture/Memory - SDRAM/FMC_D2": [
+        "SDRAM"
+      ],
+      "/Project Architecture/Memory - SDRAM/FMC_D3": [
+        "SDRAM"
+      ],
+      "/Project Architecture/Memory - SDRAM/FMC_D4": [
+        "SDRAM"
+      ],
+      "/Project Architecture/Memory - SDRAM/FMC_D5": [
+        "SDRAM"
+      ],
+      "/Project Architecture/Memory - SDRAM/FMC_D6": [
+        "SDRAM"
+      ],
+      "/Project Architecture/Memory - SDRAM/FMC_D7": [
+        "SDRAM"
+      ],
+      "/Project Architecture/Memory - SDRAM/FMC_D8": [
+        "SDRAM"
+      ],
+      "/Project Architecture/Memory - SDRAM/FMC_D9": [
+        "SDRAM"
+      ],
+      "/Project Architecture/Memory - SDRAM/FMC_NBL0": [
+        "SDRAM"
+      ],
+      "/Project Architecture/Memory - SDRAM/FMC_NBL1": [
+        "SDRAM"
+      ],
+      "/Project Architecture/Memory - SDRAM/FMC_SDCKE0": [
+        "SDRAM"
+      ],
+      "/Project Architecture/Memory - SDRAM/FMC_SDCLK": [
+        "SDRAM"
+      ],
+      "/Project Architecture/Memory - SDRAM/FMC_SDNCAS": [
+        "SDRAM"
+      ],
+      "/Project Architecture/Memory - SDRAM/FMC_SDNE0": [
+        "SDRAM"
+      ],
+      "/Project Architecture/Memory - SDRAM/FMC_SDNRAS": [
+        "SDRAM"
+      ],
+      "/Project Architecture/Memory - SDRAM/FMC_SDNWE": [
+        "SDRAM"
+      ]
+    },
+    "netclass_patterns": [
+      {
+        "netclass": "+3V3",
+        "pattern": "+3.3V"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "Length matching",
+        "pattern": "{FMC}"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -541,7 +809,7 @@
       "svg": "",
       "vrml": ""
     },
-    "page_layout_descr_file": "Templates/KDT_Template_Fab.kicad_wks"
+    "page_layout_descr_file": "kicad-embed://KDT_Template.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -654,20 +922,84 @@
       "Block Diagram"
     ],
     [
+      "e7c91631-be85-488a-af7a-f2a810f3fbfe",
+      "Revision History"
+    ],
+    [
       "fede4c36-00cc-4d3d-b71c-5243ba232202",
       "Project Architecture"
     ],
     [
+      "97a2efac-bb12-4130-96cc-5d19fa63b112",
+      "Interface - USB"
+    ],
+    [
       "7d5a1283-086b-46b0-8df7-a9850521fb5e",
-      "Section A - Title A"
+      "MCU - Power"
     ],
     [
       "e6015f1e-cbce-46f4-85e1-3d5463a17dc1",
-      "Section B - Title B"
+      "MCU - IO"
     ],
     [
-      "e7c91631-be85-488a-af7a-f2a810f3fbfe",
-      "Revision History"
+      "5817bdb2-adca-4121-9c7c-32ec97928e05",
+      "Memory - SDRAM"
+    ],
+    [
+      "6d2d8335-c1d6-4f11-b5c7-265ea349210a",
+      "Interface - RF Transmitter 2.4GHz"
+    ],
+    [
+      "5eacbcca-1b40-44c5-850e-98771545fbe2",
+      "LCD - Connectors"
+    ],
+    [
+      "5d39387f-cfb2-4114-9063-1879c6e2b9e7",
+      "Memory - Flash"
+    ],
+    [
+      "b77ebef7-bf86-4823-89f5-29883756b7c2",
+      "Memory - SD Card"
+    ],
+    [
+      "cd04b5dc-cc0d-461d-896a-a2c4adbd4e8f",
+      "UI - Buttons"
+    ],
+    [
+      "1f438eda-7b24-4bc1-ba7f-423688656f94",
+      "UI - Rotary encoders"
+    ],
+    [
+      "f40f874d-fb5b-46e3-b6f1-f246fecc723b",
+      "UI - Toggle switches"
+    ],
+    [
+      "aa6ca7d8-bccb-4da6-bc32-8cb12d8b6949",
+      "UI - Joysticks"
+    ],
+    [
+      "44a90149-a0a1-4332-9175-9816fd2bbc11",
+      "Power - Battery"
+    ],
+    [
+      "d532fde6-fcc8-4703-b00a-b5308b206554",
+      "LCD - Backlight"
+    ],
+    [
+      "8a7ea2de-b793-4d09-a9a9-63f506951dfd",
+      "Power - Charging"
+    ],
+    [
+      "d9b656b6-4698-4330-a229-95286576934d",
+      "Power - Generation"
+    ],
+    [
+      "8d72f509-c440-4054-bc7e-4b969156dac9",
+      "UI - LEDs"
+    ],
+    [
+      "7058b789-a9ad-4f9e-9017-96b48ab9f488",
+      "Memory - EEPROM"
     ]
   ],
   "text_variables": {

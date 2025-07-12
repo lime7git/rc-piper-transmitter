@@ -131,14 +131,14 @@
 	)
 	(text "Page 5"
 		(exclude_from_sim no)
-		(at 236.22 104.14 0)
+		(at 236.474 221.742 0)
 		(effects
 			(font
 				(size 2.54 2.54)
 				(bold yes)
 				(color 100 70 50 1)
 			)
-			(justify right bottom)
+			(justify right)
 			(href "#5")
 		)
 		(uuid "c54c21a6-b82f-4883-adfa-9cf31abe82f0")
@@ -212,6 +212,18 @@
 		)
 		(uuid "ea2adac5-d133-46b2-a7ff-14a70e2ad344")
 	)
+	(junction
+		(at 240.03 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14afb8bd-f0c0-4525-83d2-e50a2d864af4")
+	)
+	(junction
+		(at 269.24 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17c65530-3a5c-4482-a4eb-db55a985a318")
+	)
 	(polyline
 		(pts
 			(xy 195.58 58.42) (xy 195.58 69.85)
@@ -221,6 +233,26 @@
 			(type default)
 		)
 		(uuid "1e3c70a2-22df-46ef-a52f-0f821498dc0c")
+	)
+	(bus
+		(pts
+			(xy 240.03 149.86) (xy 240.03 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32a048c6-9774-46ee-88b3-e36d4b986498")
+	)
+	(bus
+		(pts
+			(xy 237.49 187.96) (xy 283.21 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39dd61d7-da54-436a-b06f-ce68e5a60d26")
 	)
 	(polyline
 		(pts
@@ -242,6 +274,96 @@
 		)
 		(uuid "5f799f7d-3b4c-429a-be80-1688600486e9")
 	)
+	(bus
+		(pts
+			(xy 237.49 132.08) (xy 283.21 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "780a67d9-63b2-46b1-bcfc-99adfb41855f")
+	)
+	(bus
+		(pts
+			(xy 280.67 140.97) (xy 283.21 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "852ca6f7-f4f0-4239-b079-7c8d68ef4e54")
+	)
+	(bus
+		(pts
+			(xy 269.24 167.64) (xy 283.21 167.64)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "8b7ef7bc-4e5b-4f26-bb95-98a65e9107e9")
+	)
+	(bus
+		(pts
+			(xy 269.24 152.4) (xy 283.21 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b86afc7b-4379-4024-b719-22c7895e68ff")
+	)
+	(bus
+		(pts
+			(xy 237.49 140.97) (xy 240.03 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd91e957-1586-466b-8bce-b2c9a6824939")
+	)
+	(bus
+		(pts
+			(xy 237.49 149.86) (xy 240.03 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d577aca8-878b-4aef-9f61-15e37c64c4b7")
+	)
+	(bus
+		(pts
+			(xy 240.03 152.4) (xy 269.24 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f18b09a0-caf1-4d49-b2db-2df5b26ee862")
+	)
+	(bus
+		(pts
+			(xy 237.49 152.4) (xy 240.03 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f581e777-147f-4271-a9a4-58919ca4d66e")
+	)
+	(bus
+		(pts
+			(xy 269.24 152.4) (xy 269.24 167.64)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "f678e5a1-545e-40ad-a7a7-3dc76a17f7e3")
+	)
 	(polyline
 		(pts
 			(xy 243.84 96.52) (xy 243.84 105.41)
@@ -251,6 +373,352 @@
 			(type default)
 		)
 		(uuid "f890bb63-7be7-434c-9d54-8102b0d37829")
+	)
+	(sheet
+		(at 139.7 149.86)
+		(size 15.24 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1f438eda-7b24-4bc1-ba7f-423688656f94")
+		(property "Sheetname" "UI - Rotary encoders"
+			(at 139.7 149.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Rotary encoders.kicad_sch"
+			(at 139.7 161.8746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "transmitter"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 81.28 172.72)
+		(size 15.24 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "44a90149-a0a1-4332-9175-9816fd2bbc11")
+		(property "Sheetname" "Power - Battery"
+			(at 81.28 172.0084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Battery.kicad_sch"
+			(at 81.28 188.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "transmitter"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 283.21 185.42)
+		(size 20.32 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 128 255 128 0.5020)
+		)
+		(uuid "5817bdb2-adca-4121-9c7c-32ec97928e05")
+		(property "Sheetname" "Memory - SDRAM"
+			(at 283.21 184.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU - Memory.kicad_sch"
+			(at 283.21 199.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{FMC}" input
+			(at 283.21 187.96 180)
+			(uuid "97846793-6c0c-42aa-b1ee-c1efd0bdb828")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "transmitter"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 125.73 116.84)
+		(size 17.78 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5d39387f-cfb2-4114-9063-1879c6e2b9e7")
+		(property "Sheetname" "Memory - Flash"
+			(at 125.73 116.1284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU - FLASH.kicad_sch"
+			(at 125.73 133.9346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "transmitter"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 283.21 129.54)
+		(size 20.32 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 128 255 128 0.5020)
+		)
+		(uuid "5eacbcca-1b40-44c5-850e-98771545fbe2")
+		(property "Sheetname" "LCD - Connectors"
+			(at 283.21 128.8284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LCD.kicad_sch"
+			(at 283.21 158.0646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{LTDC}" input
+			(at 283.21 132.08 180)
+			(uuid "4b094243-6b37-4a30-93d6-9fffcfffee6c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{CTP, I2C3}" bidirectional
+			(at 283.21 152.4 180)
+			(uuid "a760407b-d376-45ba-8e05-a9e65d0186fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{LCD_BACKLIGHT}" input
+			(at 283.21 140.97 180)
+			(uuid "3671ec92-1b03-492d-bf57-4ff1b877173a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "transmitter"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 279.4 85.09)
+		(size 27.94 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6d2d8335-c1d6-4f11-b5c7-265ea349210a")
+		(property "Sheetname" "Interface - RF Transmitter 2.4GHz"
+			(at 279.4 84.3784 0)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Transmitter - 2.4GHz.kicad_sch"
+			(at 279.4 105.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "transmitter"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 283.21 165.1)
+		(size 20.32 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 128 255 128 0.2000)
+		)
+		(uuid "7058b789-a9ad-4f9e-9017-96b48ab9f488")
+		(property "Sheetname" "Memory - EEPROM"
+			(at 283.21 164.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Memory - EEPROM.kicad_sch"
+			(at 283.21 179.6546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{I2C3}" bidirectional
+			(at 283.21 167.64 180)
+			(uuid "653f54df-fcbf-4a1b-adc7-b6e93176bae7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "transmitter"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "22")
+				)
+			)
+		)
 	)
 	(sheet
 		(at 200.66 46.99)
@@ -268,7 +736,7 @@
 			(color 128 255 128 0.5000)
 		)
 		(uuid "7d5a1283-086b-46b0-8df7-a9850521fb5e")
-		(property "Sheetname" "Section A - Title A"
+		(property "Sheetname" "MCU - Power"
 			(at 200.66 45.9609 0)
 			(effects
 				(font
@@ -278,7 +746,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Section A - Title A.kicad_sch"
+		(property "Sheetfile" "MCU - Power.kicad_sch"
 			(at 200.66 67.8946 0)
 			(effects
 				(font
@@ -291,14 +759,14 @@
 		(instances
 			(project "transmitter"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
-					(page "4")
+					(page "6")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 200.66 85.09)
-		(size 36.83 20.32)
+		(at 86.36 199.39)
+		(size 16.51 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -309,24 +777,106 @@
 			(type solid)
 		)
 		(fill
-			(color 255 200 0 0.5020)
+			(color 0 0 0 0.0000)
 		)
-		(uuid "e6015f1e-cbce-46f4-85e1-3d5463a17dc1")
-		(property "Sheetname" "Section B - Title B"
-			(at 200.66 84.0609 0)
+		(uuid "8a7ea2de-b793-4d09-a9a9-63f506951dfd")
+		(property "Sheetname" "Power - Charging"
+			(at 86.36 198.6784 0)
 			(effects
 				(font
-					(size 1.905 1.905)
-					(bold yes)
+					(size 1.27 1.27)
 				)
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Section B - TItle B.kicad_sch"
-			(at 200.66 105.9946 0)
+		(property "Sheetfile" "Power - Charging .kicad_sch"
+			(at 86.36 212.6746 0)
 			(effects
 				(font
-					(face "Arial")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "transmitter"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "19")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 151.13 175.26)
+		(size 13.97 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8d72f509-c440-4054-bc7e-4b969156dac9")
+		(property "Sheetname" "UI - LEDs"
+			(at 151.13 174.5484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "UI - LEDs.kicad_sch"
+			(at 151.13 189.8146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "transmitter"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "21")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 130.81 67.31)
+		(size 20.32 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "97a2efac-bb12-4130-96cc-5d19fa63b112")
+		(property "Sheetname" "Interface - USB"
+			(at 130.81 66.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power and USB.kicad_sch"
+			(at 130.81 84.4046 0)
+			(effects
+				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
@@ -336,6 +886,453 @@
 			(project "transmitter"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 116.84 177.8)
+		(size 17.78 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "aa6ca7d8-bccb-4da6-bc32-8cb12d8b6949")
+		(property "Sheetname" "UI - Joysticks"
+			(at 116.84 177.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Joysticks.kicad_sch"
+			(at 116.84 191.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "transmitter"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 160.02 119.38)
+		(size 15.24 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b77ebef7-bf86-4823-89f5-29883756b7c2")
+		(property "Sheetname" "Memory - SD Card"
+			(at 160.02 118.6684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU - SD Card.kicad_sch"
+			(at 160.02 131.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "transmitter"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 113.03 151.13)
+		(size 16.51 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cd04b5dc-cc0d-461d-896a-a2c4adbd4e8f")
+		(property "Sheetname" "UI - Buttons"
+			(at 113.03 150.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Buttons.kicad_sch"
+			(at 113.03 164.4146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "transmitter"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 240.03 138.43)
+		(size 40.64 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 128 255 128 0.5020)
+		)
+		(uuid "d532fde6-fcc8-4703-b00a-b5308b206554")
+		(property "Sheetname" "LCD - Backlight"
+			(at 240.03 137.7184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LCD - Backlight.kicad_sch"
+			(at 240.03 146.6346 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{BACKLIGHT_PWM}" input
+			(at 240.03 140.97 180)
+			(uuid "5958ce01-5b79-46c2-af91-934c8b8a8142")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{LCD_BACKLIGHT}" output
+			(at 280.67 140.97 0)
+			(uuid "87af993d-cd1e-4cb9-8ce4-3b722a2bdb1f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "transmitter"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 87.63 219.71)
+		(size 17.78 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d9b656b6-4698-4330-a229-95286576934d")
+		(property "Sheetname" "Power - Generation"
+			(at 87.63 218.9984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power - Generation.kicad_sch"
+			(at 87.63 232.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "transmitter"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "20")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 200.66 85.09)
+		(size 36.83 139.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 128 255 128 0.5020)
+		)
+		(uuid "e6015f1e-cbce-46f4-85e1-3d5463a17dc1")
+		(property "Sheetname" "MCU - IO"
+			(at 200.66 84.0609 0)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU - IO.kicad_sch"
+			(at 200.66 225.3746 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{LTDC}" output
+			(at 237.49 132.08 0)
+			(uuid "836d3624-c31a-4db9-b99c-bd8bbf9b3f48")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{ADC1}" output
+			(at 237.49 182.88 0)
+			(uuid "d324d78c-e0e7-444f-90ec-53f1eb10e4b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{FMC}" output
+			(at 237.49 187.96 0)
+			(uuid "62927c8b-19a2-491f-9936-a2363f29650c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{QUADSPI}" output
+			(at 237.49 194.31 0)
+			(uuid "c13b9572-218d-4080-812a-996753945ed2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{RCC_OSC}" output
+			(at 237.49 200.66 0)
+			(uuid "a18b1948-5f1c-4106-a0b5-916ed194b6c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{SDMMC2}" output
+			(at 237.49 204.47 0)
+			(uuid "8c2ea45b-9341-4bf5-b1fa-fdaf26eac23c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{SPI5}" output
+			(at 237.49 208.28 0)
+			(uuid "a6dec94a-723a-4949-9e9a-c9d7fd36d37e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{SWD}" output
+			(at 237.49 212.09 0)
+			(uuid "a1dce033-e455-4d49-a46e-406ae5f54a36")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{TIM2}" output
+			(at 237.49 215.9 0)
+			(uuid "b32161d4-7b9c-454c-9c71-c5828707672f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{USB_OTG_FS}" output
+			(at 237.49 217.17 0)
+			(uuid "cabcc3fb-4f8b-41b2-aa67-6e9d3df295f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{CTP}" output
+			(at 237.49 149.86 0)
+			(uuid "5eb44173-6eef-4166-8811-c680a9d70790")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{I2C3}" output
+			(at 237.49 152.4 0)
+			(uuid "9e032a39-1ef1-4c4d-9dac-bd7ddfaf29f5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{BACKLIGHT_PWM}" output
+			(at 237.49 140.97 0)
+			(uuid "49b6e03a-1912-4f07-93c2-6c4ab6c07d03")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "transmitter"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 167.64 153.67)
+		(size 12.7 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f40f874d-fb5b-46e3-b6f1-f246fecc723b")
+		(property "Sheetname" "UI - Toggle switches"
+			(at 167.64 152.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Toggle switches.kicad_sch"
+			(at 167.64 165.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "transmitter"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "15")
 				)
 			)
 		)

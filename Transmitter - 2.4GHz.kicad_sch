@@ -1,0 +1,13 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "97017978-b1b5-47cb-a705-cfd561c746e8")
+	(paper "A3")
+	(title_block
+		(title "Transmitter - 2.4GHz")
+		(rev "${REVISION}")
+		(company "${COMPANY}")
+	)
+	(lib_symbols)
+)
