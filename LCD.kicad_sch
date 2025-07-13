@@ -1977,7 +1977,7 @@
 		)
 	)
 	(bus_alias "CTP"
-		(members "CTP_INTERRUPT" "CTP_RESET")
+		(members "CTP_IRQ" "CTP_RESET")
 	)
 	(bus_alias "LCD_BACKLIGHT"
 		(members "LCD_BACKLIGHT_V-" "LCD_BACKLIGHT_V+")
@@ -7338,7 +7338,7 @@
 		)
 		(uuid "50506fe9-f3d1-4285-9710-d3f68921f9d0")
 	)
-	(label "CTP_INTERRUPT"
+	(label "CTP_IRQ"
 		(at 227.33 198.12 0)
 		(effects
 			(font

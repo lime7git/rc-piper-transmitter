@@ -1,0 +1,272 @@
+(footprint "CP_EIA-3216-18_Kemet-A"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Tantalum Capacitor SMD Kemet-A (3216-18 Metric), IPC-7352 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator")
+	(tags "capacitor tantalum")
+	(property "Reference" "REF**"
+		(at 0 -1.75 0)
+		(layer "F.SilkS")
+		(uuid "11f4bfef-c3ba-4fb1-90d6-cbb981e9c1f0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CP_EIA-3216-18_Kemet-A"
+		(at 0 1.75 0)
+		(layer "F.Fab")
+		(uuid "a2437d01-9c66-4021-af50-238d2f55c2fb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f0037928-c44c-44a1-b411-8a10708dc5fe")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7ebbb67d-57df-4597-9931-26e26227988f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.56 -0.955)
+		(end -2.56 0.955)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "121c835a-ce86-4202-92f9-3a7e59e29bbc")
+	)
+	(fp_line
+		(start -2.56 -0.955)
+		(end -2.44 -0.955)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "390f48cc-f1c8-4807-9de8-284acdc6bf1b")
+	)
+	(fp_line
+		(start -2.56 0.955)
+		(end -2.44 0.955)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "47af802e-3159-460d-af7c-71f264f19646")
+	)
+	(fp_line
+		(start -2.44 -0.955)
+		(end -2.44 0.955)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d7efce09-7fab-4ab8-8ae2-7b1073460989")
+	)
+	(fp_line
+		(start -2.44 -0.955)
+		(end -2.32 -0.955)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "21547f22-d20c-4401-b999-cd1569fe9b73")
+	)
+	(fp_line
+		(start -2.44 0.955)
+		(end -2.32 0.955)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4da03a13-bbdf-46ce-add5-47cf7cfaa288")
+	)
+	(fp_line
+		(start -2.32 -0.955)
+		(end -2.32 0.955)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "03590c5c-cbcd-4ca8-b5a8-ae2dec3971b4")
+	)
+	(fp_line
+		(start -2.32 0.955)
+		(end 1.6 0.955)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d08e7a29-432c-4ae6-be10-f124b7803d6f")
+	)
+	(fp_line
+		(start 1.6 -0.955)
+		(end -2.32 -0.955)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c0e5bd8d-ab34-4ef7-88e5-c882173a6e5b")
+	)
+	(fp_line
+		(start -2.31 -1.05)
+		(end 2.31 -1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "adb23337-ca80-4bf4-9c37-f368f88596cd")
+	)
+	(fp_line
+		(start -2.31 1.05)
+		(end -2.31 -1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b0802e30-0f21-4019-8512-50d8ec887d27")
+	)
+	(fp_line
+		(start 2.31 -1.05)
+		(end 2.31 1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "890bf7fb-a2e2-4c23-9571-353027af4448")
+	)
+	(fp_line
+		(start 2.31 1.05)
+		(end -2.31 1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b193a9ef-8b96-479e-bfbe-f76175c0deb1")
+	)
+	(fp_line
+		(start -1.6 -0.4)
+		(end -1.6 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5852c8fe-ef97-471e-8177-1c6905b6e566")
+	)
+	(fp_line
+		(start -1.6 0.8)
+		(end 1.6 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "72370b9b-49c3-427d-875f-a74c1400bd69")
+	)
+	(fp_line
+		(start -1.2 -0.8)
+		(end -1.6 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7e01e25b-df48-4e1a-ba79-880e8402c4ca")
+	)
+	(fp_line
+		(start 1.6 -0.8)
+		(end -1.2 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8c16e54d-ce57-4146-828d-96cc91bc4ec9")
+	)
+	(fp_line
+		(start 1.6 0.8)
+		(end 1.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "65486b76-40aa-4778-9dcc-7f29e6f8ffd7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "37b41811-b4a7-4c01-8b2f-6161e370a4e6")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.3525 0)
+		(size 1.415 1.39)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.179856)
+		(uuid "6109d5cc-218d-4c3e-b52a-68f34a15a25f")
+	)
+	(pad "2" smd roundrect
+		(at 1.3525 0)
+		(size 1.415 1.39)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.179856)
+		(uuid "7b4960b0-453c-497a-bba2-f411badf2a1a")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Capacitor_Tantalum_SMD.3dshapes/CP_EIA-3216-18_Kemet-A.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

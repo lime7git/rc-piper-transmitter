@@ -7,4 +7,5 @@
   (lib (name "0_inductors")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/0_inductors.kicad_sym")(options "")(descr ""))
   (lib (name "0_diodes")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/0_diodes.kicad_sym")(options "")(descr ""))
   (lib (name "0_power_symbols")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/0_power_symbols.kicad_sym")(options "")(descr ""))
+  (lib (name "0_modules")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/0_modules.kicad_sym")(options "")(descr ""))
 )
