@@ -1195,7 +1195,7 @@
 		)
 	)
 	(bus_alias "BUTTONS"
-		(members "BUTTON[1..8]")
+		(members "BUTTON[0..7]" "TOGGLE[0..1]")
 	)
 	(rectangle
 		(start 215.9 53.34)
@@ -2793,7 +2793,7 @@
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAf/Z"
 		)
 	)
-	(label "BUTTON8"
+	(label "BUTTON7"
 		(at 262.89 154.94 0)
 		(effects
 			(font
@@ -2803,7 +2803,7 @@
 		)
 		(uuid "14fc48f3-2a42-4976-a5a0-07004cbee12f")
 	)
-	(label "BUTTON6"
+	(label "BUTTON5"
 		(at 144.78 182.88 0)
 		(effects
 			(font
@@ -2813,7 +2813,7 @@
 		)
 		(uuid "17632739-2fb5-4435-9bdb-f2726ebad7a1")
 	)
-	(label "BUTTON2"
+	(label "BUTTON1"
 		(at 76.2 137.16 0)
 		(effects
 			(font
@@ -2823,7 +2823,7 @@
 		)
 		(uuid "2c074a0d-14f4-4e83-981e-1038b2e518c8")
 	)
-	(label "BUTTON7"
+	(label "BUTTON6"
 		(at 262.89 104.14 0)
 		(effects
 			(font
@@ -2833,7 +2833,7 @@
 		)
 		(uuid "5b7e17de-070e-4420-af1b-50f6fa2a2e8e")
 	)
-	(label "BUTTON1"
+	(label "BUTTON0"
 		(at 76.2 90.17 0)
 		(effects
 			(font
@@ -2843,7 +2843,7 @@
 		)
 		(uuid "a1a87d4f-4689-4cea-a99a-89db3ea65a32")
 	)
-	(label "BUTTON4"
+	(label "BUTTON3"
 		(at 144.78 90.17 0)
 		(effects
 			(font
@@ -2853,7 +2853,7 @@
 		)
 		(uuid "b720db1a-81fd-4720-947a-d7dc6a50adc9")
 	)
-	(label "BUTTON5"
+	(label "BUTTON4"
 		(at 144.78 137.16 0)
 		(effects
 			(font
@@ -2863,7 +2863,7 @@
 		)
 		(uuid "e174c5b6-82f3-498a-9b4d-886e6d7129e2")
 	)
-	(label "BUTTON3"
+	(label "BUTTON2"
 		(at 76.2 182.88 0)
 		(effects
 			(font
