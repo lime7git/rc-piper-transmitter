@@ -671,6 +671,39 @@
       "/Project Architecture/MCU - IO/FMC_SDNWE": [
         "SDRAM"
       ],
+      "/Project Architecture/Memory - Flash/QUADSPI_BK1_IO0": [
+        "QSPI"
+      ],
+      "/Project Architecture/Memory - Flash/QUADSPI_BK1_IO1": [
+        "QSPI"
+      ],
+      "/Project Architecture/Memory - Flash/QUADSPI_BK1_IO2": [
+        "QSPI"
+      ],
+      "/Project Architecture/Memory - Flash/QUADSPI_BK1_IO3": [
+        "QSPI"
+      ],
+      "/Project Architecture/Memory - Flash/QUADSPI_BK1_NCS": [
+        "QSPI"
+      ],
+      "/Project Architecture/Memory - Flash/QUADSPI_CLK": [
+        "QSPI"
+      ],
+      "/Project Architecture/Memory - SD Card/SDMMC2_CMD": [
+        "SDMMC2"
+      ],
+      "/Project Architecture/Memory - SD Card/SDMMC2_D0": [
+        "SDMMC2"
+      ],
+      "/Project Architecture/Memory - SD Card/SDMMC2_D1": [
+        "SDMMC2"
+      ],
+      "/Project Architecture/Memory - SD Card/SDMMC2_D2": [
+        "SDMMC2"
+      ],
+      "/Project Architecture/Memory - SD Card/SDMMC2_D3": [
+        "SDMMC2"
+      ],
       "/Project Architecture/Memory - SDRAM/FMC_A0": [
         "SDRAM"
       ],
@@ -958,60 +991,8 @@
       "Project Architecture"
     ],
     [
-      "97a2efac-bb12-4130-96cc-5d19fa63b112",
-      "Interface - USB"
-    ],
-    [
-      "7d5a1283-086b-46b0-8df7-a9850521fb5e",
-      "MCU - Power"
-    ],
-    [
-      "e6015f1e-cbce-46f4-85e1-3d5463a17dc1",
-      "MCU - IO"
-    ],
-    [
-      "6d2d8335-c1d6-4f11-b5c7-265ea349210a",
-      "Interface - RF Transmitter 2.4GHz"
-    ],
-    [
-      "5817bdb2-adca-4121-9c7c-32ec97928e05",
-      "Memory - SDRAM"
-    ],
-    [
-      "5eacbcca-1b40-44c5-850e-98771545fbe2",
-      "LCD - Connectors"
-    ],
-    [
-      "5d39387f-cfb2-4114-9063-1879c6e2b9e7",
-      "Memory - Flash"
-    ],
-    [
-      "b77ebef7-bf86-4823-89f5-29883756b7c2",
-      "Memory - SD Card"
-    ],
-    [
-      "cd04b5dc-cc0d-461d-896a-a2c4adbd4e8f",
-      "UI - Buttons"
-    ],
-    [
-      "1f438eda-7b24-4bc1-ba7f-423688656f94",
-      "UI - Rotary encoders"
-    ],
-    [
-      "f40f874d-fb5b-46e3-b6f1-f246fecc723b",
-      "UI - Toggle switches"
-    ],
-    [
-      "aa6ca7d8-bccb-4da6-bc32-8cb12d8b6949",
-      "UI - Joysticks"
-    ],
-    [
       "44a90149-a0a1-4332-9175-9816fd2bbc11",
       "Power - Battery"
-    ],
-    [
-      "d532fde6-fcc8-4703-b00a-b5308b206554",
-      "LCD - Backlight"
     ],
     [
       "8a7ea2de-b793-4d09-a9a9-63f506951dfd",
@@ -1022,12 +1003,64 @@
       "Power - Generation"
     ],
     [
-      "8d72f509-c440-4054-bc7e-4b969156dac9",
-      "UI - LEDs"
+      "7d5a1283-086b-46b0-8df7-a9850521fb5e",
+      "MCU - Power"
+    ],
+    [
+      "e6015f1e-cbce-46f4-85e1-3d5463a17dc1",
+      "MCU - IO"
     ],
     [
       "7058b789-a9ad-4f9e-9017-96b48ab9f488",
       "Memory - EEPROM"
+    ],
+    [
+      "5d39387f-cfb2-4114-9063-1879c6e2b9e7",
+      "Memory - Flash"
+    ],
+    [
+      "5817bdb2-adca-4121-9c7c-32ec97928e05",
+      "Memory - SDRAM"
+    ],
+    [
+      "b77ebef7-bf86-4823-89f5-29883756b7c2",
+      "Memory - SD Card"
+    ],
+    [
+      "97a2efac-bb12-4130-96cc-5d19fa63b112",
+      "Interface - USB FS"
+    ],
+    [
+      "6d2d8335-c1d6-4f11-b5c7-265ea349210a",
+      "Interface - RF Transmitter"
+    ],
+    [
+      "d532fde6-fcc8-4703-b00a-b5308b206554",
+      "LCD - Backlight"
+    ],
+    [
+      "5eacbcca-1b40-44c5-850e-98771545fbe2",
+      "LCD - Connectors"
+    ],
+    [
+      "aa6ca7d8-bccb-4da6-bc32-8cb12d8b6949",
+      "UI - Joysticks"
+    ],
+    [
+      "cd04b5dc-cc0d-461d-896a-a2c4adbd4e8f",
+      "UI - Buttons"
+    ],
+    [
+      "f40f874d-fb5b-46e3-b6f1-f246fecc723b",
+      "UI - Toggle switches"
+    ],
+    [
+      "1f438eda-7b24-4bc1-ba7f-423688656f94",
+      "UI - Rotary encoders"
+    ],
+    [
+      "8d72f509-c440-4054-bc7e-4b969156dac9",
+      "UI - LEDs"
     ]
   ],
   "text_variables": {

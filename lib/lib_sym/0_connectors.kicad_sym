@@ -1393,17 +1393,6 @@
 			)
 		)
 		(symbol "TF PUSH_1_0"
-			(rectangle
-				(start -7.62 -12.7)
-				(end 12.7 12.7)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(circle
 				(center -6.35 11.43)
 				(radius 0.381)
@@ -1418,14 +1407,14 @@
 			(pin unspecified line
 				(at -10.16 10.16 0)
 				(length 2.54)
-				(name "DAT2"
+				(name "VDD"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1436,14 +1425,14 @@
 			(pin unspecified line
 				(at -10.16 7.62 0)
 				(length 2.54)
-				(name "CD/DAT3"
+				(name "CD"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "2"
+				(number "CD"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1472,25 +1461,7 @@
 			(pin unspecified line
 				(at -10.16 2.54 0)
 				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 0 0)
-				(length 2.54)
-				(name "CLX"
+				(name "CLK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1506,16 +1477,34 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -2.54 0)
+				(at -10.16 0 0)
 				(length 2.54)
-				(name "VSS"
+				(name "CD/DAT3"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "6"
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -10.16 -2.54 0)
+				(length 2.54)
+				(name "DAT2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1525,24 +1514,6 @@
 			)
 			(pin unspecified line
 				(at -10.16 -5.08 0)
-				(length 2.54)
-				(name "DAT0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 -7.62 0)
 				(length 2.54)
 				(name "DAT1"
 					(effects
@@ -1560,16 +1531,34 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -10.16 0)
+				(at -10.16 -7.62 0)
 				(length 2.54)
-				(name "CD"
+				(name "DAT0"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "CD"
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -10.16 -10.16 0)
+				(length 2.54)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1647,6 +1636,19 @@
 							(size 1.27 1.27)
 						)
 					)
+				)
+			)
+		)
+		(symbol "TF PUSH_1_1"
+			(rectangle
+				(start -7.62 12.7)
+				(end 12.7 -12.7)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
 				)
 			)
 		)

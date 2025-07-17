@@ -411,7 +411,7 @@
 		(instances
 			(project "transmitter"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
-					(page "14")
+					(page "20")
 				)
 			)
 		)
@@ -453,7 +453,7 @@
 		(instances
 			(project "transmitter"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
-					(page "17")
+					(page "5")
 				)
 			)
 		)
@@ -505,7 +505,7 @@
 		(instances
 			(project "transmitter"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
-					(page "8")
+					(page "11")
 				)
 			)
 		)
@@ -619,7 +619,7 @@
 		(instances
 			(project "transmitter"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
-					(page "10")
+					(page "16")
 				)
 			)
 		)
@@ -640,7 +640,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "6d2d8335-c1d6-4f11-b5c7-265ea349210a")
-		(property "Sheetname" "Interface - RF Transmitter 2.4GHz"
+		(property "Sheetname" "Interface - RF Transmitter"
 			(at 279.4 84.3784 0)
 			(effects
 				(font
@@ -663,7 +663,7 @@
 		(instances
 			(project "transmitter"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
-					(page "8")
+					(page "14")
 				)
 			)
 		)
@@ -715,7 +715,7 @@
 		(instances
 			(project "transmitter"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
-					(page "22")
+					(page "10")
 				)
 			)
 		)
@@ -759,7 +759,7 @@
 		(instances
 			(project "transmitter"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
-					(page "6")
+					(page "8")
 				)
 			)
 		)
@@ -801,7 +801,7 @@
 		(instances
 			(project "transmitter"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
-					(page "19")
+					(page "6")
 				)
 			)
 		)
@@ -864,7 +864,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "97a2efac-bb12-4130-96cc-5d19fa63b112")
-		(property "Sheetname" "Interface - USB"
+		(property "Sheetname" "Interface - USB FS"
 			(at 130.81 66.5984 0)
 			(effects
 				(font
@@ -885,7 +885,7 @@
 		(instances
 			(project "transmitter"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
-					(page "5")
+					(page "13")
 				)
 			)
 		)
@@ -927,7 +927,7 @@
 		(instances
 			(project "transmitter"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
-					(page "16")
+					(page "17")
 				)
 			)
 		)
@@ -1011,7 +1011,7 @@
 		(instances
 			(project "transmitter"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
-					(page "13")
+					(page "18")
 				)
 			)
 		)
@@ -1074,7 +1074,7 @@
 		(instances
 			(project "transmitter"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
-					(page "18")
+					(page "15")
 				)
 			)
 		)
@@ -1116,7 +1116,7 @@
 		(instances
 			(project "transmitter"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
-					(page "20")
+					(page "7")
 				)
 			)
 		)
@@ -1290,7 +1290,7 @@
 		(instances
 			(project "transmitter"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
-					(page "7")
+					(page "9")
 				)
 			)
 		)
@@ -1332,7 +1332,7 @@
 		(instances
 			(project "transmitter"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
-					(page "15")
+					(page "19")
 				)
 			)
 		)
