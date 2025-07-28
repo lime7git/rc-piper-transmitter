@@ -1485,6 +1485,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "0_power_symbols:VSYS"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VSYS"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VSYS\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "VSYS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VSYS_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VSYS_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "0_resistors:0402WGF0000TCE"
 			(pin_numbers
 				(hide yes)
@@ -2642,7 +2767,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 99.06) (xy 200.66 99.06)
+			(xy 193.04 99.06) (xy 199.39 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2694,7 +2819,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 124.46) (xy 200.66 124.46)
+			(xy 193.04 124.46) (xy 199.39 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2714,7 +2839,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 99.06) (xy 210.82 99.06)
+			(xy 204.47 99.06) (xy 210.82 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3182,7 +3307,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 124.46) (xy 210.82 124.46)
+			(xy 204.47 124.46) (xy 210.82 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3324,7 +3449,7 @@
 			(fill
 				(type none)
 			)
-			(uuid f04ab697-c2b6-4c35-bd84-c83098ce0e54)
+			(uuid 998c58a8-b18e-49b5-bc25-6f0f8f3b2d31)
 		)
 	)
 	(netclass_flag ""
@@ -3626,7 +3751,7 @@
 	)
 	(symbol
 		(lib_id "0_inductors:GZ2012D601TF")
-		(at 203.2 99.06 90)
+		(at 201.93 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3634,7 +3759,7 @@
 		(dnp no)
 		(uuid "37dc6ccc-93fe-4527-884b-de90751ba793")
 		(property "Reference" "L2"
-			(at 203.2 93.98 90)
+			(at 201.93 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3642,7 +3767,7 @@
 			)
 		)
 		(property "Value" "GZ2012D601TF"
-			(at 203.2 96.52 90)
+			(at 201.93 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3650,7 +3775,7 @@
 			)
 		)
 		(property "Footprint" "0_inductors:L_0805_2012Metric"
-			(at 203.2 99.06 0)
+			(at 201.93 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3659,7 +3784,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 203.2 99.06 0)
+			(at 201.93 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3668,7 +3793,7 @@
 			)
 		)
 		(property "Description" "300mΩ ±25% 600Ω@100MHz 0805 Ferrite Beads ROHS"
-			(at 203.2 99.06 0)
+			(at 201.93 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3677,7 +3802,7 @@
 			)
 		)
 		(property "Supplier 1" "JLCPCB"
-			(at 203.2 99.06 0)
+			(at 201.93 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3686,7 +3811,7 @@
 			)
 		)
 		(property "Supplier Part Number 1" "C1017"
-			(at 203.2 99.06 0)
+			(at 201.93 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4251,7 +4376,7 @@
 	)
 	(symbol
 		(lib_id "0_inductors:GZ2012D601TF")
-		(at 203.2 124.46 90)
+		(at 201.93 124.46 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4260,7 +4385,7 @@
 		(fields_autoplaced yes)
 		(uuid "931927bb-1f53-4424-a8ca-1fc46514fbcf")
 		(property "Reference" "L3"
-			(at 203.2 119.38 90)
+			(at 201.93 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4268,7 +4393,7 @@
 			)
 		)
 		(property "Value" "GZ2012D601TF"
-			(at 203.2 121.92 90)
+			(at 201.93 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4276,7 +4401,7 @@
 			)
 		)
 		(property "Footprint" "0_inductors:L_0805_2012Metric"
-			(at 203.2 124.46 0)
+			(at 201.93 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4285,7 +4410,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 203.2 124.46 0)
+			(at 201.93 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4294,7 +4419,7 @@
 			)
 		)
 		(property "Description" "300mΩ ±25% 600Ω@100MHz 0805 Ferrite Beads ROHS"
-			(at 203.2 124.46 0)
+			(at 201.93 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4303,7 +4428,7 @@
 			)
 		)
 		(property "Supplier 1" "JLCPCB"
-			(at 203.2 124.46 0)
+			(at 201.93 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4312,7 +4437,7 @@
 			)
 		)
 		(property "Supplier Part Number 1" "C1017"
-			(at 203.2 124.46 0)
+			(at 201.93 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4396,6 +4521,72 @@
 			(project ""
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d532fde6-fcc8-4703-b00a-b5308b206554"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_power_symbols:VSYS")
+		(at 193.04 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a61d0b7f-e956-4aaf-81c8-4ea89df6db16")
+		(property "Reference" "#PWR082"
+			(at 193.04 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VSYS"
+			(at 193.04 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VSYS\""
+			(at 193.04 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8a78e1b-0d88-4e74-b7d5-c4b75ba0351b")
+		)
+		(instances
+			(project ""
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d532fde6-fcc8-4703-b00a-b5308b206554"
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -4770,72 +4961,6 @@
 			(project ""
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d532fde6-fcc8-4703-b00a-b5308b206554"
 					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 193.04 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ec28f7ad-4579-44a7-8270-f930021465ba")
-		(property "Reference" "#PWR026"
-			(at 193.04 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 193.04 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 193.04 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 193.04 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a40b5c8a-bd1b-4fa7-8ae8-9ca7f143cf15")
-		)
-		(instances
-			(project "transmitter"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d532fde6-fcc8-4703-b00a-b5308b206554"
-					(reference "#PWR026")
 					(unit 1)
 				)
 			)
