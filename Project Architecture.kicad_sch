@@ -244,16 +244,6 @@
 		)
 		(uuid "32a048c6-9774-46ee-88b3-e36d4b986498")
 	)
-	(bus
-		(pts
-			(xy 237.49 187.96) (xy 283.21 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39dd61d7-da54-436a-b06f-ce68e5a60d26")
-	)
 	(polyline
 		(pts
 			(xy 195.58 55.88) (xy 195.58 44.45)
@@ -375,7 +365,7 @@
 		(uuid "f890bb63-7be7-434c-9d54-8102b0d37829")
 	)
 	(sheet
-		(at 139.7 149.86)
+		(at 154.305 213.995)
 		(size 15.24 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -391,7 +381,7 @@
 		)
 		(uuid "1f438eda-7b24-4bc1-ba7f-423688656f94")
 		(property "Sheetname" "UI - Rotary encoders"
-			(at 139.7 149.1484 0)
+			(at 154.305 213.2834 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -400,7 +390,7 @@
 			)
 		)
 		(property "Sheetfile" "Rotary encoders.kicad_sch"
-			(at 139.7 161.8746 0)
+			(at 154.305 226.0096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -417,7 +407,7 @@
 		)
 	)
 	(sheet
-		(at 81.28 172.72)
+		(at 80.645 50.165)
 		(size 15.24 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -433,7 +423,7 @@
 		)
 		(uuid "44a90149-a0a1-4332-9175-9816fd2bbc11")
 		(property "Sheetname" "Power - Battery"
-			(at 81.28 172.0084 0)
+			(at 80.645 49.4534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -442,7 +432,7 @@
 			)
 		)
 		(property "Sheetfile" "Battery.kicad_sch"
-			(at 81.28 188.5446 0)
+			(at 80.645 65.9896 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -459,7 +449,7 @@
 		)
 	)
 	(sheet
-		(at 283.21 185.42)
+		(at 154.305 107.95)
 		(size 20.32 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -475,7 +465,7 @@
 		)
 		(uuid "5817bdb2-adca-4121-9c7c-32ec97928e05")
 		(property "Sheetname" "Memory - SDRAM"
-			(at 283.21 184.7084 0)
+			(at 154.305 107.2384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -484,7 +474,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU - Memory.kicad_sch"
-			(at 283.21 199.9746 0)
+			(at 154.305 122.5046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -493,7 +483,7 @@
 			)
 		)
 		(pin "{FMC}" input
-			(at 283.21 187.96 180)
+			(at 154.305 110.49 180)
 			(uuid "97846793-6c0c-42aa-b1ee-c1efd0bdb828")
 			(effects
 				(font
@@ -511,7 +501,7 @@
 		)
 	)
 	(sheet
-		(at 125.73 116.84)
+		(at 154.305 129.54)
 		(size 17.78 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -527,7 +517,7 @@
 		)
 		(uuid "5d39387f-cfb2-4114-9063-1879c6e2b9e7")
 		(property "Sheetname" "Memory - Flash"
-			(at 125.73 116.1284 0)
+			(at 154.305 128.8284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -536,7 +526,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU - FLASH.kicad_sch"
-			(at 125.73 133.9346 0)
+			(at 154.305 146.6346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -765,7 +755,7 @@
 		)
 	)
 	(sheet
-		(at 86.36 199.39)
+		(at 111.76 50.8)
 		(size 16.51 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -781,7 +771,7 @@
 		)
 		(uuid "8a7ea2de-b793-4d09-a9a9-63f506951dfd")
 		(property "Sheetname" "Power - Charging"
-			(at 86.36 198.6784 0)
+			(at 111.76 50.0884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -790,7 +780,7 @@
 			)
 		)
 		(property "Sheetfile" "Power - Charging .kicad_sch"
-			(at 86.36 212.6746 0)
+			(at 111.76 64.0846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -807,7 +797,7 @@
 		)
 	)
 	(sheet
-		(at 151.13 175.26)
+		(at 283.21 208.28)
 		(size 13.97 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -823,7 +813,7 @@
 		)
 		(uuid "8d72f509-c440-4054-bc7e-4b969156dac9")
 		(property "Sheetname" "UI - LEDs"
-			(at 151.13 174.5484 0)
+			(at 283.21 207.5684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -832,7 +822,7 @@
 			)
 		)
 		(property "Sheetfile" "UI - LEDs.kicad_sch"
-			(at 151.13 189.8146 0)
+			(at 283.21 222.8346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -849,7 +839,7 @@
 		)
 	)
 	(sheet
-		(at 130.81 67.31)
+		(at 80.645 78.105)
 		(size 20.32 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -865,7 +855,7 @@
 		)
 		(uuid "97a2efac-bb12-4130-96cc-5d19fa63b112")
 		(property "Sheetname" "Interface - USB FS"
-			(at 130.81 66.5984 0)
+			(at 80.645 77.3934 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -874,7 +864,7 @@
 			)
 		)
 		(property "Sheetfile" "Power and USB.kicad_sch"
-			(at 130.81 84.4046 0)
+			(at 80.645 95.1996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -891,7 +881,7 @@
 		)
 	)
 	(sheet
-		(at 116.84 177.8)
+		(at 153.67 153.035)
 		(size 17.78 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -907,7 +897,7 @@
 		)
 		(uuid "aa6ca7d8-bccb-4da6-bc32-8cb12d8b6949")
 		(property "Sheetname" "UI - Joysticks"
-			(at 116.84 177.0884 0)
+			(at 153.67 152.3234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -916,7 +906,7 @@
 			)
 		)
 		(property "Sheetfile" "Joysticks.kicad_sch"
-			(at 116.84 191.0846 0)
+			(at 153.67 166.3196 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -933,7 +923,7 @@
 		)
 	)
 	(sheet
-		(at 160.02 119.38)
+		(at 283.21 188.595)
 		(size 15.24 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -949,7 +939,7 @@
 		)
 		(uuid "b77ebef7-bf86-4823-89f5-29883756b7c2")
 		(property "Sheetname" "Memory - SD Card"
-			(at 160.02 118.6684 0)
+			(at 283.21 187.8834 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -958,7 +948,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU - SD Card.kicad_sch"
-			(at 160.02 131.3946 0)
+			(at 283.21 200.6096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -975,7 +965,7 @@
 		)
 	)
 	(sheet
-		(at 113.03 151.13)
+		(at 154.305 171.45)
 		(size 16.51 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -991,7 +981,7 @@
 		)
 		(uuid "cd04b5dc-cc0d-461d-896a-a2c4adbd4e8f")
 		(property "Sheetname" "UI - Buttons"
-			(at 113.03 150.4184 0)
+			(at 154.305 170.7384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1000,7 +990,7 @@
 			)
 		)
 		(property "Sheetfile" "Buttons.kicad_sch"
-			(at 113.03 164.4146 0)
+			(at 154.305 184.7346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1080,7 +1070,7 @@
 		)
 	)
 	(sheet
-		(at 87.63 219.71)
+		(at 144.78 50.165)
 		(size 17.78 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1096,7 +1086,7 @@
 		)
 		(uuid "d9b656b6-4698-4330-a229-95286576934d")
 		(property "Sheetname" "Power - Generation"
-			(at 87.63 218.9984 0)
+			(at 144.78 49.4534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1105,7 +1095,7 @@
 			)
 		)
 		(property "Sheetfile" "Power - Generation.kicad_sch"
-			(at 87.63 232.9946 0)
+			(at 144.78 63.4496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1296,7 +1286,7 @@
 		)
 	)
 	(sheet
-		(at 167.64 153.67)
+		(at 154.305 192.405)
 		(size 12.7 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1312,7 +1302,7 @@
 		)
 		(uuid "f40f874d-fb5b-46e3-b6f1-f246fecc723b")
 		(property "Sheetname" "UI - Toggle switches"
-			(at 167.64 152.9584 0)
+			(at 154.305 191.6934 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1321,7 +1311,7 @@
 			)
 		)
 		(property "Sheetfile" "Toggle switches.kicad_sch"
-			(at 167.64 165.6846 0)
+			(at 154.305 204.4196 0)
 			(effects
 				(font
 					(size 1.27 1.27)
