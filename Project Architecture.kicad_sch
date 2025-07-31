@@ -1085,7 +1085,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "d9b656b6-4698-4330-a229-95286576934d")
-		(property "Sheetname" "Power - Generation"
+		(property "Sheetname" "Power - Generation and Switch"
 			(at 144.78 49.4534 0)
 			(effects
 				(font

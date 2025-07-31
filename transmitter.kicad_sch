@@ -1432,7 +1432,7 @@
 		)
 		(uuid "fe1f4464-8466-41a3-95c1-bacdc38614fb")
 	)
-	(text "Power - Generation"
+	(text "Power - Generation and Switch"
 		(exclude_from_sim no)
 		(at 45.72 129.54 0)
 		(effects

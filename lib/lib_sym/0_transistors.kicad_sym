@@ -326,7 +326,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "SI2301CDS-T1-GE3"
+		(property "Reference" "Q"
 			(at 5.08 1.905 0)
 			(effects
 				(font
@@ -335,7 +335,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_PMOS_GSD"
+		(property "Value" "SI2301CDS-T1-GE3"
 			(at 5.08 0 0)
 			(effects
 				(font

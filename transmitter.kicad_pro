@@ -482,7 +482,7 @@
         "line_style": 0,
         "name": "+3V3",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 8,
+        "priority": 9,
         "schematic_color": "rgb(0, 72, 0)",
         "wire_width": 24
       },
@@ -491,7 +491,7 @@
         "line_style": 0,
         "name": "+5V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 6,
         "schematic_color": "rgb(128, 77, 0)",
         "wire_width": 24
       },
@@ -500,7 +500,7 @@
         "line_style": 0,
         "name": "+BATT",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(221, 133, 0)",
         "wire_width": 24
       },
@@ -509,7 +509,7 @@
         "line_style": 0,
         "name": "BLGND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
+        "priority": 7,
         "schematic_color": "rgb(72, 72, 72)",
         "wire_width": 24
       },
@@ -518,7 +518,7 @@
         "line_style": 0,
         "name": "BLHV",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgb(194, 0, 0)",
         "wire_width": 24
       },
@@ -527,7 +527,7 @@
         "line_style": 0,
         "name": "BLVDD",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgb(255, 153, 0)",
         "wire_width": 24
       },
@@ -536,7 +536,7 @@
         "line_style": 1,
         "name": "Differential",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgb(255, 0, 0)",
         "wire_width": 20
       },
@@ -550,7 +550,7 @@
         "microvia_drill": 0.1,
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 9,
+        "priority": 10,
         "schematic_color": "rgb(0, 0, 0)",
         "track_width": 0.2,
         "via_diameter": 0.55,
@@ -562,7 +562,7 @@
         "line_style": 3,
         "name": "Length matching",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
+        "priority": 8,
         "schematic_color": "rgb(255, 0, 0)",
         "wire_width": 20
       },
@@ -571,8 +571,17 @@
         "line_style": 0,
         "name": "VSYS",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgb(204, 102, 0)",
+        "wire_width": 24
+      },
+      {
+        "bus_width": 24,
+        "line_style": 0,
+        "name": "VSYS_SW",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(255, 229, 191)",
         "wire_width": 24
       }
     ],
@@ -581,6 +590,9 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "+5V": [
+        "SW"
+      ],
       "/Project Architecture/LCD - Backlight/BLHV": [
         "SW"
       ],
@@ -844,6 +856,15 @@
       ],
       "/Project Architecture/Memory - SDRAM/FMC_SDNWE": [
         "SDRAM"
+      ],
+      "GND": [
+        "SW"
+      ],
+      "Net-(U5-SW)": [
+        "SW"
+      ],
+      "VSYS_SW": [
+        "SW"
       ]
     },
     "netclass_patterns": [
@@ -918,6 +939,10 @@
       {
         "netclass": "Differential",
         "pattern": "/Project Architecture/Interface - USB FS/USB_OTG_FS_DM"
+      },
+      {
+        "netclass": "VSYS_SW",
+        "pattern": "VSYS_SW"
       }
     ]
   },
@@ -1159,7 +1184,7 @@
     ],
     [
       "d9b656b6-4698-4330-a229-95286576934d",
-      "Power - Generation"
+      "Power - Generation and Switch"
     ],
     [
       "7d5a1283-086b-46b0-8df7-a9850521fb5e",
