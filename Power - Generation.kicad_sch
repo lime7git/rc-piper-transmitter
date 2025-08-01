@@ -1593,6 +1593,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "0_modules:Jumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NO"
+				(at 0 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_2_Open_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_0_1"
+				(arc
+					(start -1.524 1.27)
+					(mid 0 1.778)
+					(end 1.524 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "0_power_symbols:VSYS"
 			(power)
 			(pin_numbers
@@ -5479,7 +5629,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 87.63) (xy 142.24 87.63)
+			(xy 130.81 87.63) (xy 139.7 87.63)
 		)
 		(stroke
 			(width 0)
@@ -5929,7 +6079,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 87.63) (xy 147.32 87.63)
+			(xy 158.75 87.63) (xy 149.86 87.63)
 		)
 		(stroke
 			(width 0)
@@ -6050,7 +6200,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 5ab7f2c0-34a3-4118-bef7-30464d2542da)
+			(uuid 5cd3352a-f10a-455d-b2f2-eab6c321d009)
 		)
 	)
 	(rule_area
@@ -6065,7 +6215,7 @@
 			(fill
 				(type none)
 			)
-			(uuid a313e49c-d63c-4510-aa52-5e0e27fcddc9)
+			(uuid b80b6c77-5392-4598-a9e4-0af2de03d6be)
 		)
 	)
 	(netclass_flag ""
@@ -7258,15 +7408,83 @@
 			)
 		)
 		(pin "1"
-			(uuid "4973731d-b71f-4271-bb10-c34675dc7b41")
+			(uuid "4973731d-b71f-4271-bb10-c34675dc7b42")
 		)
 		(pin "2"
-			(uuid "9d6bbcba-c29e-4fdf-9f5d-318b6234e6fe")
+			(uuid "9d6bbcba-c29e-4fdf-9f5d-318b6234e6ff")
 		)
 		(instances
 			(project ""
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d9b656b6-4698-4330-a229-95286576934d"
 					(reference "C51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_modules:Jumper_2_Open")
+		(at 144.78 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b3c0852-7781-47e9-a1aa-195c0a579776")
+		(property "Reference" "JP1"
+			(at 144.78 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NO"
+			(at 144.78 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 144.78 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 144.78 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ae03f4af-4b2b-4ba0-bd50-ad2805ac17a4")
+		)
+		(pin "1"
+			(uuid "101a6149-e7cc-4fbd-ae60-6ed246fac54c")
+		)
+		(instances
+			(project ""
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d9b656b6-4698-4330-a229-95286576934d"
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -7820,92 +8038,6 @@
 		)
 	)
 	(symbol
-		(lib_id "0_resistors:0402WGF0000TCE")
-		(at 144.78 87.63 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "4bec9dac-2e89-4e3e-91e3-dc1dd8bcd425")
-		(property "Reference" "R61"
-			(at 144.78 82.55 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "0Ω"
-			(at 144.78 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "0_resistors:R_0402_1005Metric"
-			(at 144.78 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 144.78 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V ±800ppm/℃ ±1% 0Ω 0402"
-			(at 144.78 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier 1" "JLCPCB"
-			(at 144.78 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number 1" "C17168"
-			(at 144.78 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "66830ef6-138f-45df-a22a-b86f81c4cd8d")
-		)
-		(pin "2"
-			(uuid "4c697101-8fec-42bc-8354-72a506eb4025")
-		)
-		(instances
-			(project ""
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d9b656b6-4698-4330-a229-95286576934d"
-					(reference "R61")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "0_resistors:0402WGF3300TCE")
 		(at 113.03 168.91 90)
 		(unit 1)
@@ -8237,10 +8369,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "66830ef6-138f-45df-a22a-b86f81c4cd8d")
+			(uuid "66830ef6-138f-45df-a22a-b86f81c4cd8e")
 		)
 		(pin "2"
-			(uuid "4c697101-8fec-42bc-8354-72a506eb4025")
+			(uuid "4c697101-8fec-42bc-8354-72a506eb4026")
 		)
 		(instances
 			(project ""
@@ -8544,6 +8676,24 @@
 			)
 		)
 		(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
+			(at 250.19 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "JLCPCB"
+			(at 250.19 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number 1" "C6186"
 			(at 250.19 168.91 0)
 			(effects
 				(font
@@ -8973,10 +9123,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "a91a5d8f-4afd-4c15-9071-116972cbb64a")
+			(uuid "a91a5d8f-4afd-4c15-9071-116972cbb64b")
 		)
 		(pin "1"
-			(uuid "aae53c10-c12e-40e8-98fb-554f93db77ed")
+			(uuid "aae53c10-c12e-40e8-98fb-554f93db77ee")
 		)
 		(instances
 			(project ""
@@ -9456,10 +9606,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "5adfc4ed-f990-41cd-9b19-ac62dfdbb9ac")
+			(uuid "5adfc4ed-f990-41cd-9b19-ac62dfdbb9ad")
 		)
 		(pin "2"
-			(uuid "4de41c7f-e525-42ff-bb36-938cb988588e")
+			(uuid "4de41c7f-e525-42ff-bb36-938cb988588f")
 		)
 		(instances
 			(project ""
