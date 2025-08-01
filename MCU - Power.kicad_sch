@@ -3580,6 +3580,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "0_modules:Jumper_2_Bridged"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NC"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, closed/bridged"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_2_Bridged_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_0_1"
+				(arc
+					(start -1.524 0.254)
+					(mid 0 0.762)
+					(end 1.524 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "0_modules:Jumper_2_Open"
 			(pin_numbers
 				(hide yes)
@@ -12093,6 +12243,73 @@
 		)
 	)
 	(symbol
+		(lib_id "0_modules:Jumper_2_Bridged")
+		(at 328.93 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "31d260c0-fac8-4f47-9a2d-311fd58ba6a0")
+		(property "Reference" "JP2"
+			(at 328.93 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NC"
+			(at 328.93 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 328.93 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 328.93 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 328.93 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d51b488-251b-44db-bfcb-b663ba56a339")
+		)
+		(pin "2"
+			(uuid "c472749f-3b15-4a53-bc0e-90dff939cc0e")
+		)
+		(instances
+			(project "transmitter"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "0_capacitors:CL05B104KO5NNNC")
 		(at 157.48 165.1 0)
 		(unit 1)
@@ -12254,10 +12471,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "4d7489d4-6868-449a-bda8-1a95e03e205e")
+			(uuid "4d7489d4-6868-449a-bda8-1a95e03e205f")
 		)
 		(pin "2"
-			(uuid "8433347a-c685-4988-ad36-2b4fc37503b4")
+			(uuid "8433347a-c685-4988-ad36-2b4fc37503b5")
 		)
 		(instances
 			(project ""
@@ -12516,82 +12733,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "d5766300-71b3-43b7-9185-48f3b3726a67")
+			(uuid "d5766300-71b3-43b7-9185-48f3b3726a68")
 		)
 		(pin "1"
-			(uuid "e7f4e80e-f197-436d-8b94-43e9b6aec9a0")
+			(uuid "e7f4e80e-f197-436d-8b94-43e9b6aec9a1")
 		)
 		(instances
 			(project ""
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
 					(reference "C66")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "0_modules:Jumper_2_Open")
-		(at 328.93 170.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6744bd16-9044-4946-83bc-b38bcf544ea7")
-		(property "Reference" "JP2"
-			(at 328.93 172.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NO"
-			(at 328.93 174.498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at 328.93 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 328.93 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, open"
-			(at 328.93 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cd2ddc05-06f4-4da3-b63d-139534599d36")
-		)
-		(pin "2"
-			(uuid "c42a64a7-b79b-4e36-9733-a981bbd8482a")
-		)
-		(instances
-			(project "transmitter"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
-					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -13136,10 +13286,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "4d7489d4-6868-449a-bda8-1a95e03e205e")
+			(uuid "4d7489d4-6868-449a-bda8-1a95e03e2060")
 		)
 		(pin "2"
-			(uuid "8433347a-c685-4988-ad36-2b4fc37503b4")
+			(uuid "8433347a-c685-4988-ad36-2b4fc37503b6")
 		)
 		(instances
 			(project ""
@@ -13351,6 +13501,73 @@
 		)
 	)
 	(symbol
+		(lib_id "0_modules:Jumper_2_Bridged")
+		(at 243.84 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b025edd7-4ea8-4602-97b7-969d16e43113")
+		(property "Reference" "JP5"
+			(at 243.84 103.886 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NC"
+			(at 243.84 106.172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 243.84 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 243.84 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b999bc2-6ad9-4590-a854-4c020262de3d")
+		)
+		(pin "2"
+			(uuid "c119a528-3c46-49a0-8e96-847a829e1ba3")
+		)
+		(instances
+			(project ""
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
+					(reference "JP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 127 172.72 0)
 		(unit 1)
@@ -13505,6 +13722,74 @@
 		)
 	)
 	(symbol
+		(lib_id "0_modules:Jumper_2_Bridged")
+		(at 85.09 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bab6f79c-6322-4862-b3da-28bbb3a5c893")
+		(property "Reference" "JP6"
+			(at 85.09 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NC"
+			(at 85.09 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 85.09 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 85.09 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e342f9c4-3041-4eb6-bace-d175ea8af143")
+		)
+		(pin "2"
+			(uuid "8e17684a-44c2-42fa-aabe-3a3fc3378374")
+		)
+		(instances
+			(project "transmitter"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
+					(reference "JP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "0_capacitors:CL05B104KO5NNNC")
 		(at 147.32 165.1 0)
 		(unit 1)
@@ -13578,10 +13863,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "4d7489d4-6868-449a-bda8-1a95e03e205e")
+			(uuid "4d7489d4-6868-449a-bda8-1a95e03e2061")
 		)
 		(pin "2"
-			(uuid "8433347a-c685-4988-ad36-2b4fc37503b4")
+			(uuid "8433347a-c685-4988-ad36-2b4fc37503b7")
 		)
 		(instances
 			(project ""
@@ -13947,74 +14232,6 @@
 		)
 	)
 	(symbol
-		(lib_id "0_modules:Jumper_2_Open")
-		(at 85.09 160.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d14d946a-c48a-4ca2-af14-f7979760c262")
-		(property "Reference" "JP4"
-			(at 85.09 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NO"
-			(at 85.09 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at 85.09 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 85.09 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, open"
-			(at 85.09 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "667b8b30-c1cf-48ae-b371-0acacff4c90a")
-		)
-		(pin "2"
-			(uuid "171f2e35-4ca5-4f93-8c4e-255e1235bf08")
-		)
-		(instances
-			(project "transmitter"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
-					(reference "JP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VDDA")
 		(at 336.55 154.94 0)
 		(unit 1)
@@ -14310,10 +14527,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "4d7489d4-6868-449a-bda8-1a95e03e205e")
+			(uuid "4d7489d4-6868-449a-bda8-1a95e03e2062")
 		)
 		(pin "2"
-			(uuid "8433347a-c685-4988-ad36-2b4fc37503b4")
+			(uuid "8433347a-c685-4988-ad36-2b4fc37503b8")
 		)
 		(instances
 			(project ""
@@ -14398,10 +14615,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "d5766300-71b3-43b7-9185-48f3b3726a67")
+			(uuid "d5766300-71b3-43b7-9185-48f3b3726a69")
 		)
 		(pin "1"
-			(uuid "e7f4e80e-f197-436d-8b94-43e9b6aec9a0")
+			(uuid "e7f4e80e-f197-436d-8b94-43e9b6aec9a2")
 		)
 		(instances
 			(project ""
@@ -14618,10 +14835,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "61817cdd-ba1f-43c1-830f-6bb7cc0f68cc")
+			(uuid "61817cdd-ba1f-43c1-830f-6bb7cc0f68cd")
 		)
 		(pin "2"
-			(uuid "0b76ff1e-4db9-4065-b015-c48b26929bcf")
+			(uuid "0b76ff1e-4db9-4065-b015-c48b26929bd0")
 		)
 		(instances
 			(project ""
@@ -14692,73 +14909,6 @@
 			(project "transmitter"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
 					(reference "#PWR0138")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "0_modules:Jumper_2_Open")
-		(at 243.84 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e8bd5d60-46e2-4cbd-8179-4ed652a6232d")
-		(property "Reference" "JP5"
-			(at 243.84 103.886 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NO"
-			(at 243.84 106.172 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at 243.84 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 243.84 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, open"
-			(at 243.84 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c23803c8-029f-4349-9f40-5459a15d0a7b")
-		)
-		(pin "2"
-			(uuid "d4ae4df3-2da1-423e-b252-aa9a96bf48ff")
-		)
-		(instances
-			(project "transmitter"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
-					(reference "JP5")
 					(unit 1)
 				)
 			)
