@@ -711,6 +711,48 @@
 		)
 	)
 	(sheet
+		(at 282.956 228.092)
+		(size 14.478 10.922)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "77a4df4a-1664-4221-b256-0e97cd0ecbed")
+		(property "Sheetname" "UI - Buzzer"
+			(at 282.956 227.3804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "UI - Buzzer.kicad_sch"
+			(at 282.956 239.5986 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "transmitter"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "23")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 200.66 46.99)
 		(size 36.83 20.32)
 		(exclude_from_sim no)
