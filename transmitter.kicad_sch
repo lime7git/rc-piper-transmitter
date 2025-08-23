@@ -674,7 +674,7 @@
 		)
 		(uuid "9008c96f-82fa-4b3f-88a3-9ae35f59090b")
 	)
-	(text "..........................................."
+	(text "Auxiliary\n"
 		(exclude_from_sim no)
 		(at 243.84 106.68 0)
 		(effects

@@ -479,78 +479,142 @@
       },
       {
         "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
         "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "+3V3",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 9,
+        "priority": 0,
         "schematic_color": "rgb(0, 72, 0)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 24
       },
       {
         "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
         "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "+5V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
+        "priority": 1,
         "schematic_color": "rgb(128, 77, 0)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 24
       },
       {
         "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
         "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "+BATT",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2,
         "schematic_color": "rgb(221, 133, 0)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 24
       },
       {
         "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
         "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "BLGND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
+        "priority": 3,
         "schematic_color": "rgb(72, 72, 72)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 24
       },
       {
         "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
         "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "BLHV",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 4,
         "schematic_color": "rgb(194, 0, 0)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 24
       },
       {
         "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
         "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "BLVDD",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 5,
         "schematic_color": "rgb(255, 153, 0)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 24
       },
       {
         "bus_width": 20,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
         "line_style": 1,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "Differential",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 6,
         "schematic_color": "rgb(255, 0, 0)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 20
       },
       {
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 10,
+        "priority": 7,
         "schematic_color": "rgb(0, 0, 0)",
         "track_width": 0.2,
         "via_diameter": 0.55,
@@ -559,29 +623,56 @@
       },
       {
         "bus_width": 20,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
         "line_style": 3,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "Length matching",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 8,
         "schematic_color": "rgb(255, 0, 0)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 20
       },
       {
         "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
         "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "VSYS",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 9,
         "schematic_color": "rgb(204, 102, 0)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 24
       },
       {
         "bus_width": 24,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
         "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "VSYS_SW",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 10,
         "schematic_color": "rgb(255, 229, 191)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 24
       }
     ],
@@ -595,120 +686,6 @@
       ],
       "/Project Architecture/LCD - Backlight/BLHV": [
         "SW"
-      ],
-      "/Project Architecture/MCU - IO/FMC_A0": [
-        "SDRAM"
-      ],
-      "/Project Architecture/MCU - IO/FMC_A1": [
-        "SDRAM"
-      ],
-      "/Project Architecture/MCU - IO/FMC_A10": [
-        "SDRAM"
-      ],
-      "/Project Architecture/MCU - IO/FMC_A11": [
-        "SDRAM"
-      ],
-      "/Project Architecture/MCU - IO/FMC_A2": [
-        "SDRAM"
-      ],
-      "/Project Architecture/MCU - IO/FMC_A3": [
-        "SDRAM"
-      ],
-      "/Project Architecture/MCU - IO/FMC_A4": [
-        "SDRAM"
-      ],
-      "/Project Architecture/MCU - IO/FMC_A5": [
-        "SDRAM"
-      ],
-      "/Project Architecture/MCU - IO/FMC_A6": [
-        "SDRAM"
-      ],
-      "/Project Architecture/MCU - IO/FMC_A7": [
-        "SDRAM"
-      ],
-      "/Project Architecture/MCU - IO/FMC_A8": [
-        "SDRAM"
-      ],
-      "/Project Architecture/MCU - IO/FMC_A9": [
-        "SDRAM"
-      ],
-      "/Project Architecture/MCU - IO/FMC_BA0": [
-        "SDRAM"
-      ],
-      "/Project Architecture/MCU - IO/FMC_BA1": [
-        "SDRAM"
-      ],
-      "/Project Architecture/MCU - IO/FMC_D0": [
-        "SDRAM"
-      ],
-      "/Project Architecture/MCU - IO/FMC_D1": [
-        "SDRAM"
-      ],
-      "/Project Architecture/MCU - IO/FMC_D10": [
-        "SDRAM"
-      ],
-      "/Project Architecture/MCU - IO/FMC_D11": [
-        "SDRAM"
-      ],
-      "/Project Architecture/MCU - IO/FMC_D12": [
-        "SDRAM"
-      ],
-      "/Project Architecture/MCU - IO/FMC_D13": [
-        "SDRAM"
-      ],
-      "/Project Architecture/MCU - IO/FMC_D14": [
-        "SDRAM"
-      ],
-      "/Project Architecture/MCU - IO/FMC_D15": [
-        "SDRAM"
-      ],
-      "/Project Architecture/MCU - IO/FMC_D2": [
-        "SDRAM"
-      ],
-      "/Project Architecture/MCU - IO/FMC_D3": [
-        "SDRAM"
-      ],
-      "/Project Architecture/MCU - IO/FMC_D4": [
-        "SDRAM"
-      ],
-      "/Project Architecture/MCU - IO/FMC_D5": [
-        "SDRAM"
-      ],
-      "/Project Architecture/MCU - IO/FMC_D6": [
-        "SDRAM"
-      ],
-      "/Project Architecture/MCU - IO/FMC_D7": [
-        "SDRAM"
-      ],
-      "/Project Architecture/MCU - IO/FMC_D8": [
-        "SDRAM"
-      ],
-      "/Project Architecture/MCU - IO/FMC_D9": [
-        "SDRAM"
-      ],
-      "/Project Architecture/MCU - IO/FMC_NBL0": [
-        "SDRAM"
-      ],
-      "/Project Architecture/MCU - IO/FMC_NBL1": [
-        "SDRAM"
-      ],
-      "/Project Architecture/MCU - IO/FMC_SDCKE0": [
-        "SDRAM"
-      ],
-      "/Project Architecture/MCU - IO/FMC_SDCLK": [
-        "SDRAM"
-      ],
-      "/Project Architecture/MCU - IO/FMC_SDNCAS": [
-        "SDRAM"
-      ],
-      "/Project Architecture/MCU - IO/FMC_SDNE0": [
-        "SDRAM"
-      ],
-      "/Project Architecture/MCU - IO/FMC_SDNRAS": [
-        "SDRAM"
-      ],
-      "/Project Architecture/MCU - IO/FMC_SDNWE": [
-        "SDRAM"
       ],
       "/Project Architecture/Memory - Flash/QUADSPI_BK1_IO0": [
         "QSPI"
@@ -727,9 +704,6 @@
       ],
       "/Project Architecture/Memory - Flash/QUADSPI_CLK": [
         "QSPI"
-      ],
-      "/Project Architecture/Memory - SD Card/SDMMC2_CK": [
-        "SDMMC2"
       ],
       "/Project Architecture/Memory - SD Card/SDMMC2_CMD": [
         "SDMMC2"
@@ -1252,6 +1226,10 @@
     [
       "77a4df4a-1664-4221-b256-0e97cd0ecbed",
       "UI - Buzzer"
+    ],
+    [
+      "2ce35fe4-ba06-41c1-96ff-d5b98e0c7ab9",
+      "Auxiliary"
     ]
   ],
   "text_variables": {

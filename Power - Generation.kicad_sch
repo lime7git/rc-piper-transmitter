@@ -4654,7 +4654,7 @@
 		)
 		(uuid "2b254a48-9c57-4a7d-bf4f-899904015c0c")
 	)
-	(text_box "High-side power switch"
+	(text_box "High-side power switch (Press ON - Hold OFF)"
 		(exclude_from_sim no)
 		(at 89.662 136.906 0)
 		(size 97.536 12.7)
@@ -6190,21 +6190,6 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 287.02 102.87) (xy 307.34 102.87) (xy 307.34 90.17) (xy 287.02 90.17)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 9fa24e7e-c59b-417b-8317-64f057e533b9)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
 				(xy 214.884 100.33) (xy 214.884 107.696) (xy 229.87 107.696) (xy 229.87 100.33) (xy 246.38 100.33)
 				(xy 246.38 85.09) (xy 214.884 85.09)
 			)
@@ -6215,7 +6200,22 @@
 			(fill
 				(type none)
 			)
-			(uuid d54a5ad3-d7ea-4165-83d7-fd9d290103a7)
+			(uuid 2a20861b-809d-4d9e-8187-ba5379192c00)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 287.02 102.87) (xy 307.34 102.87) (xy 307.34 90.17) (xy 287.02 90.17)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid cc1a32d5-7b57-46c9-abf7-4878503bde79)
 		)
 	)
 	(netclass_flag ""

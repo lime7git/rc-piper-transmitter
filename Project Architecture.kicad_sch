@@ -407,6 +407,48 @@
 		)
 	)
 	(sheet
+		(at 155.956 231.394)
+		(size 14.224 12.192)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2ce35fe4-ba06-41c1-96ff-d5b98e0c7ab9")
+		(property "Sheetname" "Auxiliary"
+			(at 155.956 230.6824 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "auxiliary.kicad_sch"
+			(at 155.956 244.1706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "transmitter"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "24")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 80.645 50.165)
 		(size 15.24 15.24)
 		(exclude_from_sim no)

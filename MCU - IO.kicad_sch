@@ -3805,6 +3805,15 @@
 		(uuid "fcf04cac-b957-41a9-981a-e1ec6e5942ae")
 	)
 	(bus_entry
+		(at 285.75 210.82)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fddd7cc2-911b-4f45-9021-1c1ae162ac72")
+	)
+	(bus_entry
 		(at 220.98 184.15)
 		(size 2.54 -2.54)
 		(stroke
@@ -4451,6 +4460,16 @@
 			(type default)
 		)
 		(uuid "38ce6405-7795-434b-bffa-5c0c43b8ed07")
+	)
+	(bus
+		(pts
+			(xy 288.29 205.74) (xy 288.29 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38de2db3-9600-4a6c-9af9-b0810da1c7e0")
 	)
 	(bus
 		(pts
@@ -6624,6 +6643,16 @@
 	)
 	(wire
 		(pts
+			(xy 283.21 210.82) (xy 285.75 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2d70854-0654-48df-9194-8926ef6ec43f")
+	)
+	(wire
+		(pts
 			(xy 218.44 176.53) (xy 220.98 176.53)
 		)
 		(stroke
@@ -8382,6 +8411,16 @@
 		)
 		(uuid "a4d6f446-ac5e-4e84-a075-790f3e7dfecd")
 	)
+	(label "NRST"
+		(at 283.21 210.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a4ed1ad9-823a-4dc0-87f0-02fc0a18c893")
+	)
 	(label "QUADSPI_BK1_IO3"
 		(at 157.48 121.92 180)
 		(effects
@@ -8891,6 +8930,16 @@
 			(justify right bottom)
 		)
 		(uuid "d86a31a5-1cf8-4eab-9456-1952ca4108d4")
+	)
+	(label "NRST"
+		(at 157.48 203.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d8e59a6a-45f2-45f6-b119-90c3fee1922c")
 	)
 	(label "DEBUG_SWCLK"
 		(at 63.5 81.28 0)

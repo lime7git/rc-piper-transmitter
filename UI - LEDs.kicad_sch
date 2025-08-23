@@ -1415,10 +1415,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "3adb067d-02ab-41dd-8d70-4e1f40c70669")
+			(uuid "3adb067d-02ab-41dd-8d70-4e1f40c7066a")
 		)
 		(pin "2"
-			(uuid "43b2fef5-2a91-4ccc-b2fe-495791e878aa")
+			(uuid "43b2fef5-2a91-4ccc-b2fe-495791e878ab")
 		)
 		(instances
 			(project ""
