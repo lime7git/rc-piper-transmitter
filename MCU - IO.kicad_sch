@@ -2809,7 +2809,7 @@
 		(members "QUADSPI_CLK" "QUADSPI_BK1_NCS" "QUADSPI_BK1_IO[0..3]")
 	)
 	(bus_alias "RCC_OSC"
-		(members "RCC_OSC_IN" "RCC_OSC_OUT")
+		(members "RCC_OSC_IN" "RCC_OSC_OUT" "RCC_OSC32_IN" "RCC_OSC32_OUT")
 	)
 	(bus_alias "RF"
 		(members "RF_IRQ" "RF_CE")
