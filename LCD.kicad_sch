@@ -7238,16 +7238,6 @@
 		)
 		(uuid "01c31c2f-4cde-409c-b02f-38e67df9ec7b")
 	)
-	(label "CTP_INTERRUPT"
-		(at 119.38 224.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "16660fc6-57fd-482b-b556-095f99adcf6c")
-	)
 	(label "LTDC_R2"
 		(at 227.33 54.61 0)
 		(effects
@@ -7567,6 +7557,16 @@
 			(justify left bottom)
 		)
 		(uuid "d98ebf6c-0439-48ac-8c74-d232611fc505")
+	)
+	(label "CTP_IRQ"
+		(at 119.38 224.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e4f802ff-35b0-4b16-8442-4bde44474a82")
 	)
 	(label "LTDC_R6"
 		(at 227.33 64.77 0)

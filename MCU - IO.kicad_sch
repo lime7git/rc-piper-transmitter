@@ -2821,7 +2821,7 @@
 		(members "SPI5_NSS" "SPI5_SCK" "SPI5_MISO" "SPI5_MOSI")
 	)
 	(bus_alias "SWD"
-		(members "DEBUG_SWDIO" "DEBUG_SWCLK")
+		(members "DEBUG_SWDIO" "DEBUG_SWCLK" "NRST")
 	)
 	(bus_alias "TIM2"
 		(members "TIM2_CH2" "TIM2_CH1")
