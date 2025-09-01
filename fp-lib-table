@@ -9,4 +9,5 @@
   (lib (name "0_modules")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_modules.pretty")(options "")(descr ""))
   (lib (name "0_switches")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_switches.pretty")(options "")(descr ""))
   (lib (name "0_transistors")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_transistors.pretty")(options "")(descr ""))
+  (lib (name "0_oscillators")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_oscillators.pretty")(options "")(descr ""))
 )
