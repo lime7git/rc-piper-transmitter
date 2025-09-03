@@ -6157,16 +6157,6 @@
 		)
 		(uuid "5e814b46-5e0a-48b0-9bfe-d515d0aec0a4")
 	)
-	(label "uC_PWR"
-		(at 160.02 180.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "630325cd-971f-4a5d-998b-63cdbe821918")
-	)
 	(label "VBUS_CTRL"
 		(at 130.81 153.67 270)
 		(effects
@@ -6187,6 +6177,17 @@
 		)
 		(uuid "ed10f580-3783-4c78-a28d-a68bc4b58eed")
 	)
+	(hierarchical_label "uC_PWR"
+		(shape input)
+		(at 160.02 180.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a96c321b-7390-4353-9469-3b71b56a6493")
+	)
 	(rule_area
 		(polyline
 			(pts
@@ -6199,7 +6200,7 @@
 			(fill
 				(type none)
 			)
-			(uuid ace546ee-8532-4d26-92ea-8d17602422e1)
+			(uuid 0b053549-a10c-4e94-9da1-add76c7a5aef)
 		)
 	)
 	(rule_area
@@ -6215,7 +6216,7 @@
 			(fill
 				(type none)
 			)
-			(uuid b7b5df9c-0446-451c-a204-7b568040e446)
+			(uuid 3fa5ed12-ee0b-4aa2-ab09-14b8bcd38d65)
 		)
 	)
 	(netclass_flag ""
