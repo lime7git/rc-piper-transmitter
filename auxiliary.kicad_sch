@@ -7509,7 +7509,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "0_oscillators:X322525MOB4SI 25MHz"
+		(property "Footprint" "0_oscillators:Q13FC13500004-32.768KHZ-4-T"
 			(at 71.12 77.47 0)
 			(effects
 				(font
