@@ -4895,6 +4895,16 @@
 		)
 		(uuid "4793bb71-def3-4f64-a52d-43d8c36f9de2")
 	)
+	(wire
+		(pts
+			(xy 359.41 129.54) (xy 344.17 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47e3fa98-7b7b-44bb-9768-46175bdb3a41")
+	)
 	(bus
 		(pts
 			(xy 223.52 146.05) (xy 223.52 148.59)
@@ -7257,6 +7267,16 @@
 	)
 	(wire
 		(pts
+			(xy 344.17 134.62) (xy 359.41 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6a39177-0bd2-4979-9282-3b0ad6f0141a")
+	)
+	(wire
+		(pts
 			(xy 80.01 152.4) (xy 63.5 152.4)
 		)
 		(stroke
@@ -8545,6 +8565,16 @@
 		)
 		(uuid "7a4786ea-2ffb-4959-ac36-12c1c12c1caf")
 	)
+	(label "PDR_ON"
+		(at 349.25 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7b14158a-1a73-4b16-adbe-776da54f1d80")
+	)
 	(label "LTDC_B3"
 		(at 218.44 107.95 180)
 		(effects
@@ -8714,6 +8744,16 @@
 			(justify left bottom)
 		)
 		(uuid "8eff1114-3278-4f5b-86ef-e24caea59b97")
+	)
+	(label "BOOT0"
+		(at 349.25 129.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8f7874b6-fed2-4391-8706-4b8931677b92")
 	)
 	(label "USB_OTG_FS_DP"
 		(at 283.21 182.88 180)
@@ -9919,6 +9959,17 @@
 		)
 		(uuid "85c1ac00-518d-4bec-b972-54c19d9f0b9d")
 	)
+	(hierarchical_label "PDR_ON"
+		(shape input)
+		(at 359.41 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a4eab594-84d0-4dc1-b240-700dca722699")
+	)
 	(hierarchical_label "{GPIO_UNUSED}"
 		(shape output)
 		(at 359.41 101.6 0)
@@ -9984,6 +10035,17 @@
 			(justify left)
 		)
 		(uuid "e213fa72-992a-463d-8f07-5fa6ccc98bc9")
+	)
+	(hierarchical_label "BOOT0"
+		(shape input)
+		(at 359.41 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e7d1b02b-c2f5-4416-9e9e-4e420680c035")
 	)
 	(hierarchical_label "{ADC1}"
 		(shape output)

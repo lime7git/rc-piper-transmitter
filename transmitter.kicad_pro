@@ -694,6 +694,9 @@
       "/Project Architecture/Memory - Flash/QUADSPI_CLK": [
         "QSPI"
       ],
+      "/Project Architecture/Memory - SD Card/SDMMC2_CK": [
+        "SDMMC2"
+      ],
       "/Project Architecture/Memory - SD Card/SDMMC2_CMD": [
         "SDMMC2"
       ],
