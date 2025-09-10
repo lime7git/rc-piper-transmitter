@@ -2133,6 +2133,16 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 78.74) (xy 274.32 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c16aa8e-8855-4740-aebe-dbfb388cd866")
+	)
+	(wire
+		(pts
 			(xy 189.23 121.92) (xy 189.23 124.46)
 		)
 		(stroke
@@ -2363,6 +2373,16 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 76.2) (xy 271.78 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7308ffaa-fc0b-4e8d-a632-476ca19388cc")
+	)
+	(wire
+		(pts
 			(xy 240.03 123.19) (xy 240.03 127)
 		)
 		(stroke
@@ -2453,6 +2473,16 @@
 	)
 	(wire
 		(pts
+			(xy 287.02 76.2) (xy 287.02 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac0bf5c9-399c-44ba-9e7c-571eb866ae1d")
+	)
+	(wire
+		(pts
 			(xy 156.21 152.4) (xy 191.77 152.4)
 		)
 		(stroke
@@ -2530,6 +2560,16 @@
 			(type default)
 		)
 		(uuid "c6741f7b-76cb-4e6a-9ab5-f5bc42fd7ebe")
+	)
+	(wire
+		(pts
+			(xy 284.48 78.74) (xy 287.02 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d08792d6-2c7e-4cd1-8ed4-ce77cea515c3")
 	)
 	(wire
 		(pts
@@ -2673,6 +2713,71 @@
 			(justify right)
 		)
 		(uuid "fad296ad-41a9-4fd1-b7b1-662c056541e7")
+	)
+	(symbol
+		(lib_id "0_power_symbols:VSYS")
+		(at 287.02 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "033a83f7-e85b-4340-8db2-a02676617400")
+		(property "Reference" "#PWR0172"
+			(at 287.02 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VSYS"
+			(at 287.02 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 287.02 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 287.02 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VSYS\""
+			(at 287.02 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95f4d5be-e8f3-471a-b933-d4b006f4eb0b")
+		)
+		(instances
+			(project "transmitter"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/8a7ea2de-b793-4d09-a9a9-63f506951dfd"
+					(reference "#PWR0172")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "0_capacitors:CL21A475KAQNNNE")
@@ -3214,6 +3319,71 @@
 			(project ""
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/8a7ea2de-b793-4d09-a9a9-63f506951dfd"
 					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 271.78 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "71c512b8-4374-4324-a63f-d7c73e79e79a")
+		(property "Reference" "#PWR0171"
+			(at 271.78 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 271.78 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 271.78 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 271.78 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1b4608f-6ef1-45dd-8a2f-ce579da234f5")
+		)
+		(instances
+			(project "transmitter"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/8a7ea2de-b793-4d09-a9a9-63f506951dfd"
+					(reference "#PWR0171")
 					(unit 1)
 				)
 			)
@@ -4291,6 +4461,74 @@
 			(project ""
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/8a7ea2de-b793-4d09-a9a9-63f506951dfd"
 					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_modules:Jumper_2_Open")
+		(at 279.4 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f58d7a5c-9975-4dc0-8011-5b3b3326c8f4")
+		(property "Reference" "JP10"
+			(at 279.4 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NO"
+			(at 279.4 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 279.4 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 279.4 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 279.4 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6513ad55-e344-48c9-ac3f-ab062aa8994f")
+		)
+		(pin "1"
+			(uuid "e0733743-cd02-4ac1-9838-1619ba14844d")
+		)
+		(instances
+			(project "transmitter"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/8a7ea2de-b793-4d09-a9a9-63f506951dfd"
+					(reference "JP10")
 					(unit 1)
 				)
 			)
