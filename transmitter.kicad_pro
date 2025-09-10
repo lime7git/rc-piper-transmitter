@@ -676,6 +676,153 @@
       "/Project Architecture/LCD - Backlight/BLHV": [
         "SW"
       ],
+      "/Project Architecture/MCU - IO/FMC_A0": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_A1": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_A10": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_A11": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_A2": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_A3": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_A4": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_A5": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_A6": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_A7": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_A8": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_A9": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_BA0": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_BA1": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_D0": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_D1": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_D10": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_D11": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_D12": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_D13": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_D14": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_D15": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_D2": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_D3": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_D4": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_D5": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_D6": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_D7": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_D8": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_D9": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_NBL0": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_NBL1": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_SDCKE0": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_SDCLK": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_SDNCAS": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_SDNE0": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_SDNRAS": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/FMC_SDNWE": [
+        "SDRAM"
+      ],
+      "/Project Architecture/MCU - IO/QUADSPI_BK1_IO0": [
+        "QSPI"
+      ],
+      "/Project Architecture/MCU - IO/QUADSPI_BK1_IO1": [
+        "QSPI"
+      ],
+      "/Project Architecture/MCU - IO/QUADSPI_BK1_IO2": [
+        "QSPI"
+      ],
+      "/Project Architecture/MCU - IO/QUADSPI_BK1_IO3": [
+        "QSPI"
+      ],
+      "/Project Architecture/MCU - IO/QUADSPI_BK1_NCS": [
+        "QSPI"
+      ],
+      "/Project Architecture/MCU - IO/QUADSPI_CLK": [
+        "QSPI"
+      ],
+      "/Project Architecture/MCU - IO/SDMMC2_CK": [
+        "SDMMC2"
+      ],
+      "/Project Architecture/MCU - IO/SDMMC2_CMD": [
+        "SDMMC2"
+      ],
+      "/Project Architecture/MCU - IO/SDMMC2_D1": [
+        "SDMMC2"
+      ],
+      "/Project Architecture/MCU - IO/SDMMC2_D2": [
+        "SDMMC2"
+      ],
+      "/Project Architecture/MCU - IO/SDMMC2_D3": [
+        "SDMMC2"
+      ],
       "/Project Architecture/Memory - Flash/QUADSPI_BK1_IO0": [
         "QSPI"
       ],

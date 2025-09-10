@@ -8677,7 +8677,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Vertical"
 			(at 152.4 185.42 0)
 			(effects
 				(font
@@ -8696,6 +8696,24 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 152.4 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" ""
+			(at 152.4 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number 1" ""
 			(at 152.4 185.42 0)
 			(effects
 				(font
@@ -9412,10 +9430,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "ba0045a9-7b43-498c-89ab-9014897e15f7")
+			(uuid "ba0045a9-7b43-498c-89ab-9014897e15f8")
 		)
 		(pin "1"
-			(uuid "a8974b34-9a19-409a-8d3c-f3f8ea73213c")
+			(uuid "a8974b34-9a19-409a-8d3c-f3f8ea73213d")
 		)
 		(instances
 			(project ""
