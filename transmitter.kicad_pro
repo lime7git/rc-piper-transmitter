@@ -814,6 +814,9 @@
       "/Project Architecture/MCU - IO/SDMMC2_CMD": [
         "SDMMC2"
       ],
+      "/Project Architecture/MCU - IO/SDMMC2_D0": [
+        "SDMMC2"
+      ],
       "/Project Architecture/MCU - IO/SDMMC2_D1": [
         "SDMMC2"
       ],
