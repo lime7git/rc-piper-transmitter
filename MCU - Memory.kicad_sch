@@ -1527,9 +1527,9 @@
 		)
 		(uuid 9b34024b-a8aa-416e-9865-3052ff0807d1)
 	)
-	(text "7x 100nF X7R 10% 0402"
+	(text "9x 100nF X7R 10% 0402"
 		(exclude_from_sim no)
-		(at 216.408 56.388 0)
+		(at 239.014 56.388 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1767,6 +1767,12 @@
 		(uuid "7ad4f7dc-9d45-4356-8f3f-541f9afa2c4f")
 	)
 	(junction
+		(at 208.28 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "880c10cf-8912-4a99-9958-7584c159f17b")
+	)
+	(junction
 		(at 140.97 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1785,10 +1791,28 @@
 		(uuid "9a4e90e0-6f23-4e5e-91e6-bf5ae7ee9d63")
 	)
 	(junction
+		(at 208.28 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9faa00c0-2ff5-4592-a62a-4ce6cb5636a5")
+	)
+	(junction
 		(at 175.26 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae13aa2a-e492-4ed6-b842-98550c03f73a")
+	)
+	(junction
+		(at 198.12 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b69a511e-d608-4f0b-8c85-7165b48f1c9e")
+	)
+	(junction
+		(at 198.12 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b75e6d35-cbe3-4ec3-b530-8408e6969a82")
 	)
 	(junction
 		(at 185.42 151.13)
@@ -2262,7 +2286,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 50.8) (xy 186.69 50.8)
+			(xy 186.69 50.8) (xy 198.12 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2309,6 +2333,16 @@
 			(type default)
 		)
 		(uuid "09e3d383-aa31-4609-b541-c3a398f39449")
+	)
+	(wire
+		(pts
+			(xy 208.28 50.8) (xy 208.28 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ac9b653-a254-4f25-a56e-ca38996b039d")
 	)
 	(wire
 		(pts
@@ -2362,7 +2396,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 60.96) (xy 186.69 60.96)
+			(xy 186.69 60.96) (xy 198.12 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2592,6 +2626,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 60.96) (xy 208.28 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30d4b268-5139-4cc5-9ea6-abf459712ce0")
+	)
+	(wire
+		(pts
 			(xy 154.94 163.83) (xy 187.96 163.83)
 		)
 		(stroke
@@ -2619,6 +2663,16 @@
 			(type default)
 		)
 		(uuid "3ca3529c-0abb-485b-a461-f672a4edef9b")
+	)
+	(wire
+		(pts
+			(xy 219.71 50.8) (xy 219.71 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e7ae7e1-b958-4b9d-9fa2-d5c526c238b8")
 	)
 	(wire
 		(pts
@@ -2799,6 +2853,16 @@
 			(type default)
 		)
 		(uuid "64f87f0e-03e0-441e-9ccb-73f35cdf2bb3")
+	)
+	(wire
+		(pts
+			(xy 219.71 50.8) (xy 208.28 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6573abb2-c7da-4dfa-97e7-329d2f2d5432")
 	)
 	(bus
 		(pts
@@ -3079,6 +3143,26 @@
 			(type default)
 		)
 		(uuid "9265edd2-557b-404f-b827-74b3ac08ec49")
+	)
+	(wire
+		(pts
+			(xy 219.71 60.96) (xy 208.28 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93e0e7e9-3eea-4342-a74a-5ed5e54816ee")
+	)
+	(wire
+		(pts
+			(xy 208.28 60.96) (xy 198.12 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94ce10a8-306f-4fe8-a186-93eef6378ada")
 	)
 	(bus
 		(pts
@@ -3500,6 +3584,16 @@
 		)
 		(uuid "eee6e909-8b50-486d-b97f-e3831bb42f5b")
 	)
+	(wire
+		(pts
+			(xy 208.28 50.8) (xy 198.12 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1338d10-e50c-489b-bc0c-c1e3c65f912a")
+	)
 	(bus
 		(pts
 			(xy 152.4 151.13) (xy 152.4 153.67)
@@ -3539,6 +3633,16 @@
 			(type default)
 		)
 		(uuid "fa3f1817-6faa-4e02-91ef-42b8b6abfbac")
+	)
+	(wire
+		(pts
+			(xy 219.71 60.96) (xy 219.71 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff4c1a58-d905-438c-8a69-92ce343afaac")
 	)
 	(label "FMC_SDCKE0"
 		(at 240.03 161.29 0)
@@ -3943,7 +4047,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 50106a4e-1d93-4780-b0d6-5561d411b576)
+			(uuid 135171e8-4cd9-458c-af23-d96734e04114)
 		)
 	)
 	(rule_area
@@ -3958,7 +4062,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 61745005-a445-4cad-b50c-06c8b1ec18b3)
+			(uuid 94ad44b3-9b34-46b6-b771-6f40ec7f651a)
 		)
 	)
 	(netclass_flag ""
@@ -4328,6 +4432,94 @@
 			(project ""
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5817bdb2-adca-4121-9c7c-32ec97928e05"
 					(reference "#PWR3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_capacitors:CL05B104KO5NNNC")
+		(at 219.71 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "44c24bc7-1cb3-4693-ac21-0805fa8fc9ba")
+		(property "Reference" "C87"
+			(at 222.25 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 222.25 57.1563 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "0_capacitors:C_0402_1005Metric"
+			(at 219.71 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 219.71 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "JLCPCB"
+			(at 219.71 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number 1" "C1525"
+			(at 219.71 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d02d868-60b5-44bd-abe4-2d061da73ba4")
+		)
+		(pin "2"
+			(uuid "b0e7febb-d62d-44a2-8cbe-db1a8ddf3bdc")
+		)
+		(instances
+			(project "transmitter"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5817bdb2-adca-4121-9c7c-32ec97928e05"
+					(reference "C87")
 					(unit 1)
 				)
 			)
@@ -5260,6 +5452,94 @@
 			(project ""
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5817bdb2-adca-4121-9c7c-32ec97928e05"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_capacitors:CL05B104KO5NNNC")
+		(at 208.28 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f109f208-2a53-422f-8ed8-dd6a1a33d971")
+		(property "Reference" "C86"
+			(at 210.82 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 210.82 57.1563 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "0_capacitors:C_0402_1005Metric"
+			(at 208.28 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 208.28 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "JLCPCB"
+			(at 208.28 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number 1" "C1525"
+			(at 208.28 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9698b860-27ed-48b6-a3b3-5b5dbb82412f")
+		)
+		(pin "2"
+			(uuid "362fe9ba-cdea-4949-bbcb-f160e48a7a09")
+		)
+		(instances
+			(project "transmitter"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5817bdb2-adca-4121-9c7c-32ec97928e05"
+					(reference "C86")
 					(unit 1)
 				)
 			)
