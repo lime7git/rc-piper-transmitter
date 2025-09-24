@@ -124,7 +124,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.15,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -137,7 +137,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
+        "min_track_width": 0.1,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_clearance": 0.0,
@@ -190,7 +190,8 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.127
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -212,10 +213,10 @@
         "single_track_defaults": {
           "corner_radius_percentage": 80,
           "corner_style": 1,
-          "max_amplitude": 1.0,
+          "max_amplitude": 3.0,
           "min_amplitude": 0.2,
           "single_sided": false,
-          "spacing": 0.6
+          "spacing": 0.1
         }
       },
       "via_dimensions": [
@@ -504,7 +505,7 @@
         "microvia_drill": 0.1,
         "name": "+3V3",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgb(0, 72, 0)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -521,7 +522,7 @@
         "microvia_drill": 0.1,
         "name": "+5V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(128, 77, 0)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -538,7 +539,7 @@
         "microvia_drill": 0.1,
         "name": "+BATT",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgb(221, 133, 0)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -555,7 +556,7 @@
         "microvia_drill": 0.1,
         "name": "BLGND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgb(72, 72, 72)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -572,7 +573,7 @@
         "microvia_drill": 0.1,
         "name": "BLHV",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgb(194, 0, 0)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -589,7 +590,7 @@
         "microvia_drill": 0.1,
         "name": "BLVDD",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 6,
         "schematic_color": "rgb(255, 153, 0)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -606,7 +607,7 @@
         "microvia_drill": 0.1,
         "name": "Differential",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
+        "priority": 7,
         "schematic_color": "rgb(255, 0, 0)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -623,7 +624,7 @@
         "microvia_drill": 0.1,
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
+        "priority": 8,
         "schematic_color": "rgb(0, 0, 0)",
         "track_width": 0.2,
         "via_diameter": 0.55,
@@ -633,19 +634,29 @@
       {
         "bus_width": 20,
         "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_gap": 0.1,
+        "diff_pair_width": 0.3,
         "line_style": 3,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
+        "microvia_diameter": 0.45,
+        "microvia_drill": 0.3,
         "name": "Length matching",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 8,
+        "priority": 9,
         "schematic_color": "rgb(255, 0, 0)",
-        "track_width": 0.2,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "track_width": 0.1,
+        "via_diameter": 0.127,
+        "via_drill": 0.127,
         "wire_width": 20
+      },
+      {
+        "clearance": 0.25,
+        "name": "SDRAM",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1,
+        "via_diameter": 0.45,
+        "via_drill": 0.3
       },
       {
         "bus_width": 12,
@@ -657,7 +668,7 @@
         "microvia_drill": 0.1,
         "name": "VSYS",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 9,
+        "priority": 11,
         "schematic_color": "rgb(204, 102, 0)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -1014,7 +1025,7 @@
       },
       {
         "netclass": "Length matching",
-        "pattern": "{FMC}"
+        "pattern": "/Project Architecture/Memory - SDRAM"
       },
       {
         "netclass": "BLVDD",
@@ -1079,10 +1090,6 @@
       {
         "netclass": "VSYS_SW",
         "pattern": "VSYS_SW"
-      },
-      {
-        "netclass": "+3V3",
-        "pattern": "/Project Architecture/MCU - IO/FMC_D5"
       }
     ]
   },
