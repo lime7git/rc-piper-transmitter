@@ -599,9 +599,9 @@
       },
       {
         "bus_width": 20,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "clearance": 0.2032,
+        "diff_pair_gap": 0.2032,
+        "diff_pair_width": 0.1582,
         "line_style": 1,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -609,7 +609,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 7,
         "schematic_color": "rgb(255, 0, 0)",
-        "track_width": 0.2,
+        "track_width": 0.1582,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 20
@@ -1065,15 +1065,7 @@
       },
       {
         "netclass": "Differential",
-        "pattern": "DM"
-      },
-      {
-        "netclass": "Differential",
         "pattern": "DP"
-      },
-      {
-        "netclass": "Differential",
-        "pattern": "/Project Architecture/Interface - USB FS/DM"
       },
       {
         "netclass": "Differential",
@@ -1084,12 +1076,20 @@
         "pattern": "/Project Architecture/Interface - USB FS/USB_OTG_FS_DP"
       },
       {
-        "netclass": "Differential",
-        "pattern": "/Project Architecture/Interface - USB FS/USB_OTG_FS_DM"
-      },
-      {
         "netclass": "VSYS_SW",
         "pattern": "VSYS_SW"
+      },
+      {
+        "netclass": "Differential",
+        "pattern": "/Project Architecture/Interface - USB FS/DN"
+      },
+      {
+        "netclass": "Differential",
+        "pattern": "/Project Architecture/Interface - USB FS/USB_OTG_FS_DN"
+      },
+      {
+        "netclass": "Differential",
+        "pattern": "/Project Architecture/MCU - IO/USB_OTG_FS_DN"
       }
     ]
   },

@@ -484,14 +484,14 @@
 				(pin passive line
 					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "A"
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "A"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -502,14 +502,14 @@
 				(pin passive line
 					(at -7.62 0 0)
 					(length 2.54)
-					(name "C"
+					(name "3"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "C"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -520,14 +520,14 @@
 				(pin passive line
 					(at -7.62 -2.54 0)
 					(length 2.54)
-					(name "B"
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "B"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -538,14 +538,14 @@
 				(pin passive line
 					(at 7.62 2.54 180)
 					(length 2.54)
-					(name "S1"
+					(name "4"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "S1"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -556,14 +556,14 @@
 				(pin passive line
 					(at 7.62 -2.54 180)
 					(length 2.54)
-					(name "S2"
+					(name "5"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "S2"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2286,19 +2286,19 @@
 				(hide yes)
 			)
 		)
-		(pin "A"
+		(pin "3"
 			(uuid "d7542b42-fa6e-422f-aee5-31277a4e0f63")
 		)
-		(pin "B"
+		(pin "2"
 			(uuid "891e6ec0-a5c2-4576-8882-6771ff5d5bd1")
 		)
-		(pin "S2"
+		(pin "4"
 			(uuid "d41e6fdb-1671-4d0c-b2ca-f046038bcc57")
 		)
-		(pin "C"
+		(pin "1"
 			(uuid "ca45cc02-e8c7-4b0f-be2e-61352664f0fd")
 		)
-		(pin "S1"
+		(pin "5"
 			(uuid "af139828-367e-4281-855e-92429e8f1304")
 		)
 		(instances

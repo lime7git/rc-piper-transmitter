@@ -1011,12 +1011,6 @@
 		(uuid "3e6fa1c7-94a3-4e75-b89b-ae0630a4675e")
 	)
 	(junction
-		(at 161.29 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3f8d88ff-deff-4e5b-b297-a9d774df3dad")
-	)
-	(junction
 		(at 161.29 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1169,7 +1163,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 86.36) (xy 161.29 86.36)
+			(xy 80.01 86.36) (xy 172.72 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1186,16 +1180,6 @@
 			(type default)
 		)
 		(uuid "21d0fcaa-1e86-4d66-bbe2-5c158886519e")
-	)
-	(wire
-		(pts
-			(xy 161.29 86.36) (xy 172.72 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23410535-59bc-438b-bf31-d58c1889eedc")
 	)
 	(wire
 		(pts
@@ -1509,17 +1493,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 78.74) (xy 161.29 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d13ededf-7858-43ec-9fc2-a50e6f8268b8")
-	)
-	(wire
-		(pts
-			(xy 161.29 86.36) (xy 161.29 96.52)
+			(xy 161.29 78.74) (xy 161.29 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3479,7 +3453,7 @@
 			(fill
 				(type none)
 			)
-			(uuid d0ec8351-1f01-434b-aa35-ac343f7848b0)
+			(uuid 611963c0-d2a0-465c-b555-d0216ba73330)
 		)
 	)
 	(netclass_flag ""

@@ -47,10 +47,22 @@
 		(uuid "17c65530-3a5c-4482-a4eb-db55a985a318")
 	)
 	(junction
+		(at 119.38 307.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41ee4f40-3438-4d09-aad3-6a588facdf3e")
+	)
+	(junction
 		(at 116.84 256.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "493eae7f-d280-47ad-bf6c-d8cc5a577d9c")
+	)
+	(junction
+		(at 187.96 226.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92bb432b-593b-46b1-b5a5-f6b9ef7ede37")
 	)
 	(junction
 		(at 177.8 226.06)
@@ -63,6 +75,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af3a6247-0bc7-4420-a062-f80b4ee5db7b")
+	)
+	(junction
+		(at 190.5 226.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dec2db9f-1ba3-4e26-80b9-7f90fad03890")
 	)
 	(wire
 		(pts
@@ -156,7 +174,27 @@
 	)
 	(bus
 		(pts
-			(xy 111.76 124.46) (xy 114.3 124.46)
+			(xy 121.92 327.66) (xy 187.96 327.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63ce3a84-e491-443a-ab61-beb87d6cbc7b")
+	)
+	(bus
+		(pts
+			(xy 119.38 330.2) (xy 190.5 330.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64472652-5d9f-4661-8369-a2d01f40fb93")
+	)
+	(bus
+		(pts
+			(xy 111.76 124.46) (xy 119.38 124.46)
 		)
 		(stroke
 			(width 0)
@@ -213,6 +251,16 @@
 			(type default)
 		)
 		(uuid "8722780b-56f8-40f8-a7bd-6ef1037df87e")
+	)
+	(bus
+		(pts
+			(xy 190.5 226.06) (xy 190.5 330.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "882b975d-2529-4976-aa52-07386462301a")
 	)
 	(bus
 		(pts
@@ -286,13 +334,33 @@
 	)
 	(bus
 		(pts
-			(xy 177.8 226.06) (xy 207.01 226.06)
+			(xy 177.8 226.06) (xy 187.96 226.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a5ba6bde-5bd3-4e95-ae62-994d56e0ef3f")
+	)
+	(bus
+		(pts
+			(xy 187.96 226.06) (xy 187.96 327.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a66d6b7e-24e6-4d7e-84f6-dc6b3bbe9c3d")
+	)
+	(bus
+		(pts
+			(xy 119.38 309.88) (xy 119.38 330.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8b63bd2-0063-4c1c-b398-f8f71541a201")
 	)
 	(bus
 		(pts
@@ -316,7 +384,7 @@
 	)
 	(bus
 		(pts
-			(xy 111.76 309.88) (xy 114.3 309.88)
+			(xy 111.76 309.88) (xy 119.38 309.88)
 		)
 		(stroke
 			(width 0)
@@ -336,6 +404,16 @@
 	)
 	(bus
 		(pts
+			(xy 121.92 307.34) (xy 121.92 327.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c097dfb0-d08a-42ad-8f87-57fd267d18d0")
+	)
+	(bus
+		(pts
 			(xy 116.84 241.3) (xy 116.84 256.54)
 		)
 		(stroke
@@ -343,6 +421,16 @@
 			(type default)
 		)
 		(uuid "c3d79446-8654-4c93-b047-97681ea37c71")
+	)
+	(bus
+		(pts
+			(xy 119.38 124.46) (xy 119.38 307.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c800e5bf-bf41-4528-969a-9a518927248f")
 	)
 	(wire
 		(pts
@@ -373,6 +461,16 @@
 			(type default)
 		)
 		(uuid "cfa58b2c-8c20-4d63-9660-78d0da31e9e3")
+	)
+	(bus
+		(pts
+			(xy 190.5 226.06) (xy 207.01 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d14f7ca2-3d01-4e4f-868b-67ea4d8e8549")
 	)
 	(bus
 		(pts
@@ -446,6 +544,16 @@
 	)
 	(bus
 		(pts
+			(xy 119.38 307.34) (xy 121.92 307.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5515c94-7b8f-41fb-bc63-55dbe67e7a63")
+	)
+	(bus
+		(pts
 			(xy 111.76 226.06) (xy 137.16 226.06)
 		)
 		(stroke
@@ -463,6 +571,16 @@
 			(type default)
 		)
 		(uuid "f3892235-4e49-44a4-9489-7b529417a512")
+	)
+	(bus
+		(pts
+			(xy 187.96 226.06) (xy 190.5 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4272376-2246-4eb9-803f-8e4ffa5d0d75")
 	)
 	(bus
 		(pts
@@ -506,46 +624,13 @@
 	)
 	(bus
 		(pts
-			(xy 111.76 307.34) (xy 114.3 307.34)
+			(xy 111.76 307.34) (xy 119.38 307.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fff00194-2152-4916-9a45-ccbf7fb66a6a")
-	)
-	(hierarchical_label "{I2C3}"
-		(shape input)
-		(at 114.3 307.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3445ff0a-0da5-433b-b141-9d7e44fa46c6")
-	)
-	(hierarchical_label "{CTP}"
-		(shape input)
-		(at 114.3 309.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cecb4b7c-d0be-4965-865b-6be6dc189fef")
-	)
-	(hierarchical_label "{I2C3}"
-		(shape input)
-		(at 114.3 124.46 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d3b46633-5919-4b92-b450-d588beb62fff")
 	)
 	(sheet
 		(at 88.9 269.24)

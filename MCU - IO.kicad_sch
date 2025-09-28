@@ -2829,9 +2829,6 @@
 	(bus_alias "TIM2"
 		(members "TIM2_CH2" "TIM2_CH1")
 	)
-	(bus_alias "USB_OTG_FS"
-		(members "USB_OTG_FS_DM" "USB_OTG_FS_DP")
-	)
 	(text "Flexible I/O worked examples"
 		(exclude_from_sim no)
 		(at 265.43 254 0)
@@ -7915,7 +7912,7 @@
 		)
 		(uuid "3859ff64-3e64-474e-9629-0d6fa99edf87")
 	)
-	(label "USB_OTG_FS_DM"
+	(label "USB_OTG_FS_DN"
 		(at 63.5 73.66 0)
 		(effects
 			(font
@@ -8254,16 +8251,6 @@
 			(justify right bottom)
 		)
 		(uuid "59acf197-995e-4b97-8acb-4e61257c54d3")
-	)
-	(label "PG2"
-		(at 157.48 157.48 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "59f57a1d-d1f7-4002-b95f-9987066232e7")
 	)
 	(label "FMC_D5"
 		(at 63.5 172.72 0)
@@ -8765,6 +8752,16 @@
 		)
 		(uuid "90277215-dd63-437a-8649-c05e4ff849b2")
 	)
+	(label "CD"
+		(at 63.5 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "90601071-1b07-4722-8a6b-3be9921bdffc")
+	)
 	(label "DEBUG_SWDIO"
 		(at 63.5 78.74 0)
 		(effects
@@ -9125,16 +9122,6 @@
 		)
 		(uuid "b65d2c07-8276-4a4d-ba04-8086f9c82114")
 	)
-	(label "PB13"
-		(at 63.5 121.92 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b6ad70c8-016b-423a-ae12-c19a84bae1a6")
-	)
 	(label "SDMMC2_D1"
 		(at 283.21 57.15 180)
 		(effects
@@ -9195,7 +9182,7 @@
 		)
 		(uuid "bd87acee-ad4f-4e30-a130-decbb65ee762")
 	)
-	(label "USB_OTG_FS_DM"
+	(label "USB_OTG_FS_DN"
 		(at 283.21 180.34 180)
 		(effects
 			(font
@@ -9594,6 +9581,16 @@
 			(justify right bottom)
 		)
 		(uuid "ddb04bb7-7b4c-49db-9cf1-958fc9d2ab25")
+	)
+	(label "RF_IRQ"
+		(at 157.48 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "de4e843d-4d54-4727-91b9-4c6cbeb528f9")
 	)
 	(label "FMC_A6"
 		(at 63.5 226.06 0)

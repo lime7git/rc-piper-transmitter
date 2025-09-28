@@ -1125,14 +1125,14 @@
 			(pin passive line
 				(at -7.62 2.54 0)
 				(length 2.54)
-				(name "A"
+				(name "1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "A"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1143,14 +1143,14 @@
 			(pin passive line
 				(at -7.62 0 0)
 				(length 2.54)
-				(name "C"
+				(name "3"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "C"
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1161,14 +1161,14 @@
 			(pin passive line
 				(at -7.62 -2.54 0)
 				(length 2.54)
-				(name "B"
+				(name "2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "B"
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1179,14 +1179,14 @@
 			(pin passive line
 				(at 7.62 2.54 180)
 				(length 2.54)
-				(name "S1"
+				(name "4"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "S1"
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1197,14 +1197,14 @@
 			(pin passive line
 				(at 7.62 -2.54 180)
 				(length 2.54)
-				(name "S2"
+				(name "5"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "S2"
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)

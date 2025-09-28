@@ -11,6 +11,9 @@
 		(company "${COMPANY}")
 	)
 	(lib_symbols)
+	(bus_alias "USB_OTG_FS"
+		(members "USB_OTG_FS_DN" "USB_OTG_FS_DP")
+	)
 	(text "9"
 		(exclude_from_sim no)
 		(at 35.56 144.78 0)

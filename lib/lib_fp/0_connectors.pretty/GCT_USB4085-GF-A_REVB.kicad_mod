@@ -378,24 +378,6 @@
 		(uuid "7329dfa7-a32c-4e0f-9d0d-b6cc881b647e")
 	)
 	(pad "S1" thru_hole oval
-		(at -4.325 0)
-		(size 0.9 1.7)
-		(drill oval 0.6 1.4)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
-		(uuid "449c2b3f-9efc-4aa5-a0ec-1bf86c8e8af9")
-	)
-	(pad "S2" thru_hole oval
-		(at 4.325 0)
-		(size 0.9 1.7)
-		(drill oval 0.6 1.4)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
-		(uuid "14a9a0e7-7a19-4fa1-b5dc-60f13dd05da6")
-	)
-	(pad "S3" thru_hole oval
 		(at -4.325 -3.38)
 		(size 0.9 2.4)
 		(drill oval 0.6 2.1)
@@ -404,7 +386,16 @@
 		(solder_mask_margin 0.102)
 		(uuid "755cd954-bacd-4c51-a1b4-6f41e355bd0c")
 	)
-	(pad "S4" thru_hole oval
+	(pad "S1" thru_hole oval
+		(at -4.325 0)
+		(size 0.9 1.7)
+		(drill oval 0.6 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "449c2b3f-9efc-4aa5-a0ec-1bf86c8e8af9")
+	)
+	(pad "S1" thru_hole oval
 		(at 4.325 -3.38)
 		(size 0.9 2.4)
 		(drill oval 0.6 2.1)
@@ -412,6 +403,15 @@
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
 		(uuid "df524a4f-5990-4dc4-b28b-ac960b6bab26")
+	)
+	(pad "S1" thru_hole oval
+		(at 4.325 0)
+		(size 0.9 1.7)
+		(drill oval 0.6 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "14a9a0e7-7a19-4fa1-b5dc-60f13dd05da6")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/lib/3d_models/USB4085-GF-A.STEP"

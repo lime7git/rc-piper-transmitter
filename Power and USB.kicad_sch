@@ -2164,7 +2164,7 @@
 		)
 		(uuid "8cee2f71-73ed-4dad-b1dd-9f64fdbdaa6c")
 	)
-	(label "USB_OTG_FS_DM"
+	(label "USB_OTG_FS_DN"
 		(at 186.69 81.28 180)
 		(effects
 			(font
@@ -2174,7 +2174,7 @@
 		)
 		(uuid "ab787a65-5d01-4b76-9e61-8252c806a74c")
 	)
-	(label "DM"
+	(label "DN"
 		(at 115.57 81.28 0)
 		(effects
 			(font
