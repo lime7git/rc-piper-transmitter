@@ -5,11 +5,14 @@
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [
+      "BLGND",
+      "BLVDD",
       "+5V",
+      "GNDA",
       "GND",
       "+3.3V"
     ],
-    "high_contrast_mode": 0,
+    "high_contrast_mode": 1,
     "net_color_mode": 2,
     "opacity": {
       "images": 0.6,
@@ -99,20 +102,20 @@
       13
     ],
     "col_widths": [
-      104,
-      75,
-      82,
-      50,
-      50,
-      42,
-      34,
-      19,
-      11,
+      66,
+      48,
+      53,
+      32,
+      32,
+      27,
+      22,
+      12,
       8,
       8,
       8,
       8,
-      992
+      8,
+      867
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
