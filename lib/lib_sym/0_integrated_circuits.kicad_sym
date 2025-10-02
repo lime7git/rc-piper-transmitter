@@ -4478,7 +4478,6 @@
 			(pin passive line
 				(at 0 -30.48 90)
 				(length 2.54)
-				(hide yes)
 				(name "GND"
 					(effects
 						(font
