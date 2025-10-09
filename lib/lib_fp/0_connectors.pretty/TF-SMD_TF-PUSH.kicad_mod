@@ -968,15 +968,15 @@
 		(uuid "fb265466-0cff-4c0d-bf93-0a974d1eeebc")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/EASYEDA_MODELS/TF-SMD_TF-PUSH.step"
+	(model "${KIPRJMOD}/lib/3d_models/MicroSD_Socket.STEP"
 		(offset
 			(xyz 0 -2.094 -0.6)
 		)
 		(scale
-			(xyz 1 1 1)
+			(xyz 1 1 1.1)
 		)
 		(rotate
-			(xyz -0 -0 -0)
+			(xyz -90 -0 -0)
 		)
 	)
 )

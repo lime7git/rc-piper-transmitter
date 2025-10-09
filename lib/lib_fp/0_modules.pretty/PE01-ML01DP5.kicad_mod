@@ -429,4 +429,15 @@
 			(xyz -0 -0 -0)
 		)
 	)
+	(model "${KIPRJMOD}/lib/3d_models/E01-2G4M27D.STEP"
+		(offset
+			(xyz 0.5 0 11)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

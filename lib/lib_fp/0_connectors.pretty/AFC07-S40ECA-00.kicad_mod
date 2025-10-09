@@ -640,15 +640,15 @@
 		(uuid "29ab31d5-b897-44b3-8031-e2a66a024dd2")
 	)
 	(embedded_fonts no)
-	(model "AFC07-S24ECA-00.stp"
+	(model "${KICAD9_3DMODEL_DIR}/Connector_FFC-FPC.3dshapes/Hirose_FH12-40S-0.5SH_1x40-1MP_P0.50mm_Horizontal.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0.25 1.2 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )

@@ -326,7 +326,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "0_connectors:AFC07-S10ECC-00"
+		(symbol "0_connectors:AFC07-S10FCC-00 bottom contact"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -339,7 +339,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "AFC07-S10ECC-00"
+			(property "Value" "AFC07-S10FCC-00"
 				(at 21.59 5.08 0)
 				(effects
 					(font
@@ -358,7 +358,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588894245574332416"
+			(property "Datasheet" ""
 				(at 21.59 -194.92 0)
 				(effects
 					(font
@@ -397,7 +397,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "AFC07-S10ECC-00"
+			(property "Manufacturer_Part_Number" "AFC07-S10FCC-00 "
 				(at 21.59 -594.92 0)
 				(effects
 					(font
@@ -456,7 +456,7 @@
 					(hide yes)
 				)
 			)
-			(property "Supplier Part Number 1" "C262235"
+			(property "Supplier Part Number 1" "C11050"
 				(at 0 0 0)
 				(effects
 					(font
@@ -465,7 +465,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "AFC07-S10ECC-00_1_1"
+			(symbol "AFC07-S10FCC-00 bottom contact_1_1"
 				(rectangle
 					(start 5.08 2.54)
 					(end 20.32 -25.4)
@@ -2617,16 +2617,6 @@
 		)
 		(uuid "00950865-e3f5-4d90-9643-279446753952")
 	)
-	(wire
-		(pts
-			(xy 224.79 203.2) (xy 246.38 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00ddaa67-4a91-487f-843c-eca5f107b769")
-	)
 	(bus
 		(pts
 			(xy 222.25 87.63) (xy 222.25 90.17)
@@ -3039,6 +3029,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 193.04) (xy 246.38 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50af9e61-4415-4719-b6c4-01db51ccf3b9")
+	)
+	(wire
+		(pts
 			(xy 224.79 102.87) (xy 246.38 102.87)
 		)
 		(stroke
@@ -3056,6 +3056,16 @@
 			(type default)
 		)
 		(uuid "57fcda84-9938-4b1f-b800-9aeb0dcb7aef")
+	)
+	(wire
+		(pts
+			(xy 224.79 198.12) (xy 246.38 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "609f7ac5-95ff-477b-8aed-b714c77650ed")
 	)
 	(wire
 		(pts
@@ -3097,6 +3107,16 @@
 		)
 		(uuid "6768c9c7-1cb8-452f-b67d-11784ef7f70f")
 	)
+	(wire
+		(pts
+			(xy 224.79 195.58) (xy 246.38 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "689b0b34-dbf9-4e59-92b6-f43659b3b1ab")
+	)
 	(bus
 		(pts
 			(xy 222.25 186.69) (xy 220.98 185.42)
@@ -3116,16 +3136,6 @@
 			(type default)
 		)
 		(uuid "6d5b247c-386b-46dc-8b89-cd9baac85202")
-	)
-	(wire
-		(pts
-			(xy 224.79 193.04) (xy 246.38 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e986e46-8c90-4168-aa39-cda6eb2f7ad1")
 	)
 	(wire
 		(pts
@@ -3246,6 +3256,16 @@
 			(type default)
 		)
 		(uuid "8bfedbbc-6075-435e-9096-e3d72c9515c8")
+	)
+	(wire
+		(pts
+			(xy 224.79 203.2) (xy 246.38 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c72d5f7-e6ae-454a-835e-6eb0c0d05e1f")
 	)
 	(wire
 		(pts
@@ -3407,16 +3427,6 @@
 		)
 		(uuid "adf8abe7-4d4d-4724-a76e-85bd4755af2e")
 	)
-	(wire
-		(pts
-			(xy 224.79 198.12) (xy 246.38 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae87077f-ac73-4118-87d3-001d9a6205c8")
-	)
 	(bus
 		(pts
 			(xy 222.25 36.83) (xy 222.25 34.29)
@@ -3426,16 +3436,6 @@
 			(type default)
 		)
 		(uuid "af7ae9f8-7237-494e-95eb-052af21050e5")
-	)
-	(wire
-		(pts
-			(xy 224.79 195.58) (xy 246.38 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af93b060-5224-4239-ad42-8eb51adc781b")
 	)
 	(wire
 		(pts
@@ -7688,193 +7688,6 @@
 		)
 	)
 	(symbol
-		(lib_id "0_connectors:AFC07-S10ECC-00")
-		(at 271.78 208.28 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1a492cee-5bd1-47dc-a9cb-b40b4ee39b60")
-		(property "Reference" "J2"
-			(at 259.08 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AFC07-S10ECC-00"
-			(at 259.08 180.594 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "0_connectors:AFC07S10ECC00"
-			(at 264.414 180.594 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588894245574332416"
-			(at 250.19 13.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "FFC, FPC Connectors 0.020\"0.50mm P=0.5mm RoHS"
-			(at 271.78 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "2"
-			(at 250.19 -186.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "JUSHUO"
-			(at 250.19 -286.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "AFC07-S10ECC-00"
-			(at 250.19 -386.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 250.19 -486.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 250.19 -586.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 250.19 -686.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 250.19 -786.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Supplier 1" "JLCPCB"
-			(at 271.78 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number 1" "C262235"
-			(at 271.78 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "2e1571dd-5e27-414b-8cd7-5eee6358501e")
-		)
-		(pin "5"
-			(uuid "480a9aad-f6bb-4c31-9559-4a3c8f8c9c94")
-		)
-		(pin "2"
-			(uuid "62a46954-7edc-453b-b1e9-5d342b2910b3")
-		)
-		(pin "8"
-			(uuid "27ece2dc-b245-4005-a392-e7bfbf946b58")
-		)
-		(pin "4"
-			(uuid "007ac3c5-c42e-41bd-9d28-8246adecae03")
-		)
-		(pin "1"
-			(uuid "620473e3-a6c1-43ca-9815-fd2a088ddda3")
-		)
-		(pin "9"
-			(uuid "70558d77-7586-4a0d-a334-d7fa6b6b1682")
-		)
-		(pin "10"
-			(uuid "19f075bc-c0d4-47cb-895d-5a8aa2e3a9cb")
-		)
-		(pin "MP1"
-			(uuid "fbb45712-85fb-4b39-a561-09848a6495fc")
-		)
-		(pin "3"
-			(uuid "60ebef65-d769-4dfd-906a-8fa748097569")
-		)
-		(pin "7"
-			(uuid "c755737b-8865-49df-851c-394d5e5fee9d")
-		)
-		(pin "MP2"
-			(uuid "d10833b3-0557-438f-9e83-6b60a575c4d1")
-		)
-		(instances
-			(project ""
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5eacbcca-1b40-44c5-850e-98771545fbe2"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "0_capacitors:CL05B104KO5NNNC")
 		(at 144.78 186.69 0)
 		(unit 1)
@@ -8959,6 +8772,194 @@
 			(project ""
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5eacbcca-1b40-44c5-850e-98771545fbe2"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_connectors:AFC07-S10FCC-00 bottom contact")
+		(at 271.78 208.28 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3d0c92a-ed23-447e-ba65-d7d4cb5b6662")
+		(property "Reference" "J11"
+			(at 259.08 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AFC07-S10FCC-00"
+			(at 259.08 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "0_connectors:AFC07S10ECC00"
+			(at 264.414 180.594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 13.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "FFC, FPC Connectors 0.020\"0.50mm P=0.5mm RoHS"
+			(at 271.78 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2"
+			(at 250.19 -186.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "JUSHUO"
+			(at 250.19 -286.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AFC07-S10FCC-00 "
+			(at 250.19 -386.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 250.19 -486.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 250.19 -586.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 250.19 -686.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 250.19 -786.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "JLCPCB"
+			(at 271.78 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number 1" "C11050"
+			(at 271.78 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "424cd5ad-19dd-4302-a39f-6f6c01460226")
+		)
+		(pin "3"
+			(uuid "ea7430cc-8642-4503-aa65-b01df8d177da")
+		)
+		(pin "1"
+			(uuid "06b79e40-6767-4945-b8d0-3197ef61ba40")
+		)
+		(pin "MP1"
+			(uuid "14aeae5f-4651-498b-9182-e6d1ee7d299a")
+		)
+		(pin "6"
+			(uuid "18ecc2fa-7d8a-45a9-a572-478f9babf741")
+		)
+		(pin "4"
+			(uuid "8a8be5ad-53ce-4c40-a41b-79cd8284a78f")
+		)
+		(pin "9"
+			(uuid "cd0be0a6-0c22-4321-90d8-6f26bc17f876")
+		)
+		(pin "10"
+			(uuid "33ae4dcb-2048-457a-92f2-3c766c3ea649")
+		)
+		(pin "MP2"
+			(uuid "8e3b2363-07e1-4afc-b5bc-8d83f03a0a62")
+		)
+		(pin "2"
+			(uuid "6cb9a119-9647-46bf-b049-046402c307ac")
+		)
+		(pin "5"
+			(uuid "3cd5ec00-cf35-4365-9f0f-1d90027cc5fc")
+		)
+		(pin "8"
+			(uuid "2d0cc97c-fd01-4923-810d-69ed49abe083")
+		)
+		(instances
+			(project "transmitter"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5eacbcca-1b40-44c5-850e-98771545fbe2"
+					(reference "J11")
 					(unit 1)
 				)
 			)
