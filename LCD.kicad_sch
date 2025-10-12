@@ -2677,6 +2677,16 @@
 		)
 		(uuid "09a30b4b-1586-4124-9164-f334359632b7")
 	)
+	(bus
+		(pts
+			(xy 214.63 194.31) (xy 220.98 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0acf04e2-8c15-42db-995a-93bfd1ab3e75")
+	)
 	(wire
 		(pts
 			(xy 224.79 100.33) (xy 246.38 100.33)
@@ -2776,16 +2786,6 @@
 			(type default)
 		)
 		(uuid "1c407b08-d0c3-4bbd-ac86-98ceda0aa714")
-	)
-	(bus
-		(pts
-			(xy 222.25 195.58) (xy 222.25 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d2c5608-af04-4cf5-a862-1d5ba463c17b")
 	)
 	(wire
 		(pts
@@ -3677,16 +3677,6 @@
 		)
 		(uuid "e1a445a6-4542-4ea9-8fd3-cb1162125070")
 	)
-	(bus
-		(pts
-			(xy 222.25 193.04) (xy 222.25 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5a979c3-dfb7-4e66-94d7-19df3b3038a0")
-	)
 	(wire
 		(pts
 			(xy 224.79 118.11) (xy 246.38 118.11)
@@ -3726,6 +3716,26 @@
 			(type default)
 		)
 		(uuid "f0eee97e-84ef-424a-9bd2-06839f668592")
+	)
+	(bus
+		(pts
+			(xy 222.25 195.58) (xy 222.25 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8c76a7f-1c50-424d-bd8e-9a93faa8fa95")
+	)
+	(bus
+		(pts
+			(xy 222.25 195.58) (xy 220.98 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa361fff-94f5-4702-bff2-ed9e491f425b")
 	)
 	(wire
 		(pts
@@ -7610,7 +7620,7 @@
 		)
 		(uuid "b3a8144c-3e31-4a7c-9eae-7aa53d0f8c29")
 	)
-	(hierarchical_label "{CTP, I2C3}"
+	(hierarchical_label "{I2C3}"
 		(shape bidirectional)
 		(at 214.63 185.42 180)
 		(effects
@@ -7620,6 +7630,17 @@
 			(justify right)
 		)
 		(uuid "dbc5b66a-95ab-4a87-91c7-66d2805416b3")
+	)
+	(hierarchical_label "{CTP}"
+		(shape bidirectional)
+		(at 214.63 194.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ed6c6527-406f-4af1-a3d5-6c71525b7c68")
 	)
 	(symbol
 		(lib_id "power:+3.3V")
