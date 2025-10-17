@@ -1,0 +1,14 @@
+Default	False	2.0	3
++3V3	False	2.0	3
++5V	False	2.0	3
++BATT	False	2.0	3
+BLGND	False	2.0	3
+BLHV	False	2.0	3
+BLVDD	False	2.0	3
+Differential	True	2.0	3
+GND	False	2.0	3
+Length matching	False	2.0	3
+SDRAM	False	2.0	3
+VSYS	False	2.0	3
+VSYS_SW	False	2.0	3
+False	True	False
