@@ -76,6 +76,12 @@
 		(color 0 0 0 0)
 		(uuid "af3a6247-0bc7-4420-a062-f80b4ee5db7b")
 	)
+	(junction
+		(at 119.38 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef89ae91-1665-411e-9189-c5bbcb00d6a8")
+	)
 	(bus
 		(pts
 			(xy 190.5 223.52) (xy 220.98 223.52)
@@ -85,6 +91,16 @@
 			(type default)
 		)
 		(uuid "0fad42f8-194d-4bd8-b7ba-2a915ef7dd62")
+	)
+	(bus
+		(pts
+			(xy 111.76 109.22) (xy 119.38 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "143e6ff1-b37f-49b0-b2a7-01df15366bcc")
 	)
 	(wire
 		(pts
@@ -578,6 +594,16 @@
 	)
 	(bus
 		(pts
+			(xy 119.38 109.22) (xy 119.38 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa7d5543-0c14-4aa8-b2d4-b531a42a24e2")
+	)
+	(bus
+		(pts
 			(xy 111.76 256.54) (xy 116.84 256.54)
 		)
 		(stroke
@@ -837,6 +863,16 @@
 		(pin "NTC_BATT" input
 			(at 111.76 106.68 0)
 			(uuid "9f3d4bb0-2f01-4049-ae12-43c1774fdf3d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{I2C3}" bidirectional
+			(at 111.76 109.22 0)
+			(uuid "c0cf3763-c453-4e0b-a9f5-a0073f8007c2")
 			(effects
 				(font
 					(size 1.27 1.27)
