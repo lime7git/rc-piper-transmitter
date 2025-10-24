@@ -3119,6 +3119,19 @@
 		(uuid d6463b68-9bf5-46cb-9fde-1b332d957d47)
 	)
 	(rectangle
+		(start 330.2 207.01)
+		(end 377.19 228.6)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d975d070-663e-45bb-8193-b10bb81c07c6)
+	)
+	(rectangle
 		(start 265.43 116.84)
 		(end 312.42 137.16)
 		(stroke
@@ -3130,19 +3143,6 @@
 			(type none)
 		)
 		(uuid dc3ecc5b-b2ad-427c-8b49-acbda7dceb87)
-	)
-	(rectangle
-		(start 13.97 243.84)
-		(end 218.44 284.48)
-		(stroke
-			(width 1)
-			(type default)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid e322903d-3038-4446-8ea6-a6827db5259a)
 	)
 	(rectangle
 		(start 265.43 33.02)
@@ -3272,30 +3272,6 @@
 		)
 		(uuid "06b4cc1a-538c-4c5c-ae5c-2a82665595af")
 	)
-	(text_box "Test points\n"
-		(exclude_from_sim no)
-		(at 13.97 271.78 0)
-		(size 204.47 12.7)
-		(margins 1.9049 1.9049 1.9049 1.9049)
-		(stroke
-			(width -0.0001)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 162 22 34 1)
-			)
-			(justify bottom)
-		)
-		(uuid "1647cff9-485d-4e68-b9ab-3b9d048175ea")
-	)
 	(text_box "QUAD SPI\n"
 		(exclude_from_sim no)
 		(at 265.43 85.09 0)
@@ -3319,6 +3295,30 @@
 			(justify bottom)
 		)
 		(uuid "1dda0262-cc53-4105-8de5-8a06ab44e030")
+	)
+	(text_box "Test points\n"
+		(exclude_from_sim no)
+		(at 330.2 208.28 0)
+		(size 46.99 20.32)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "28282b10-357c-4664-89f6-28503ff715e2")
 	)
 	(text_box "[${#}] ${TITLE}"
 		(exclude_from_sim no)
@@ -4669,6 +4669,16 @@
 			(type default)
 		)
 		(uuid "01a33ecd-710a-42b5-8fca-422b53c6b458")
+	)
+	(wire
+		(pts
+			(xy 341.63 222.25) (xy 358.14 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01b5d1d0-f124-4951-8e24-0373c9b5ec62")
 	)
 	(wire
 		(pts
@@ -7400,6 +7410,16 @@
 		)
 		(uuid "ccb7a98d-8548-47a5-9ffd-4ad848508f4f")
 	)
+	(wire
+		(pts
+			(xy 341.63 218.44) (xy 358.14 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd361ca6-a074-4750-8fb0-901aa30d3923")
+	)
 	(bus
 		(pts
 			(xy 223.52 168.91) (xy 223.52 171.45)
@@ -7409,6 +7429,16 @@
 			(type default)
 		)
 		(uuid "ce11f41f-309d-4fb7-af40-d5704fabf3c8")
+	)
+	(wire
+		(pts
+			(xy 341.63 210.82) (xy 358.14 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d14b5c9e-043b-4324-8921-cbf28027293d")
 	)
 	(wire
 		(pts
@@ -7659,6 +7689,16 @@
 			(type default)
 		)
 		(uuid "e365cbae-4c48-4f15-af7e-d567b2618d19")
+	)
+	(wire
+		(pts
+			(xy 341.63 214.63) (xy 358.14 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e49c234d-3af5-45ea-a605-50561bd3ffd5")
 	)
 	(wire
 		(pts
@@ -8290,6 +8330,16 @@
 		)
 		(uuid "18e251b0-2f2c-4c0f-87d5-d962ca173cb0")
 	)
+	(label "BOOT0"
+		(at 341.63 210.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "195a1608-8d30-4a53-ad0e-aa0381f1bbfc")
+	)
 	(label "LTDC_G4"
 		(at 63.5 114.3 0)
 		(effects
@@ -8679,6 +8729,16 @@
 			(justify right bottom)
 		)
 		(uuid "417cf2d3-1976-481c-90ce-10bb4819f8ca")
+	)
+	(label "NRST"
+		(at 341.63 222.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "428a2131-2188-4730-8404-c47e4d42e61b")
 	)
 	(label "RCC_OSC_IN"
 		(at 346.71 154.94 180)
@@ -9449,6 +9509,16 @@
 			(justify left bottom)
 		)
 		(uuid "917c1924-fa8f-4c19-b8be-8528a9863383")
+	)
+	(label "DEBUG_SWDIO"
+		(at 341.63 214.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "91d4e74f-7bbd-4286-88c6-ab6853ca115d")
 	)
 	(label "FMC_NBL1"
 		(at 218.44 161.29 180)
@@ -10400,6 +10470,16 @@
 		)
 		(uuid "f0820fac-005b-49e8-9a1a-76119f76529d")
 	)
+	(label "DEBUG_SWCLK"
+		(at 341.63 218.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f63d227a-881c-4c27-aa87-3396dc2f7e78")
+	)
 	(label "LTDC_R3"
 		(at 218.44 67.31 180)
 		(effects
@@ -10735,6 +10815,91 @@
 		(uuid "fc3762f5-2c8b-4192-b9d1-0da137915ca1")
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 358.14 218.44 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "14500fa5-e0a9-4535-b4d2-fdc32977ef90")
+		(property "Reference" "TP24"
+			(at 363.22 218.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 363.22 219.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "0_pads:TestPoint_Pad_D0.4mm_Back"
+			(at 358.14 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 358.14 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 358.14 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" ""
+			(at 358.14 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number 1" ""
+			(at 358.14 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1b1049b-79b4-4c84-9125-7e81ca65caa9")
+		)
+		(instances
+			(project "transmitter"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e6015f1e-cbce-46f4-85e1-3d5463a17dc1"
+					(reference "TP24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "0_integrated_circuits:STM32H743ZIT6TR")
 		(at 80.01 45.72 0)
 		(unit 1)
@@ -10760,7 +10925,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LQFP-144_1_STM"
+		(property "Footprint" ""
 			(at 80.01 45.72 0)
 			(effects
 				(font
@@ -11249,6 +11414,176 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 358.14 214.63 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "278c5f41-0c41-470a-ad28-aa1d875f8af1")
+		(property "Reference" "TP23"
+			(at 363.22 214.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 363.22 215.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "0_pads:TestPoint_Pad_D0.4mm_Back"
+			(at 358.14 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 358.14 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 358.14 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" ""
+			(at 358.14 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number 1" ""
+			(at 358.14 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b3622a77-7b9c-40b6-8ea3-cd563a82e7e7")
+		)
+		(instances
+			(project "transmitter"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e6015f1e-cbce-46f4-85e1-3d5463a17dc1"
+					(reference "TP23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 358.14 222.25 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "61333312-466a-4a07-b97b-719aa27180e4")
+		(property "Reference" "TP25"
+			(at 363.22 222.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 363.22 223.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "0_pads:TestPoint_Pad_D0.4mm_Back"
+			(at 358.14 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 358.14 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 358.14 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" ""
+			(at 358.14 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number 1" ""
+			(at 358.14 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be9c764b-c4e8-4174-ab00-6ea38bd2d202")
+		)
+		(instances
+			(project "transmitter"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e6015f1e-cbce-46f4-85e1-3d5463a17dc1"
+					(reference "TP25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "0_integrated_circuits:STM32H743ZIT6TR")
 		(at 80.01 143.51 0)
 		(unit 2)
@@ -11274,7 +11609,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LQFP-144_1_STM"
+		(property "Footprint" ""
 			(at 80.01 143.51 0)
 			(effects
 				(font
@@ -11764,32 +12099,34 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 21.59 251.46 90)
+		(at 358.14 210.82 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c56ccfc9-3890-4910-bcbd-838040e9de46")
-		(property "Reference" "TP1"
-			(at 18.288 246.38 90)
+		(uuid "d34f8673-e7fa-4554-8b74-150ff3fba20c")
+		(property "Reference" "TP22"
+			(at 363.22 210.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 18.288 248.92 90)
+			(at 363.22 212.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 21.59 246.38 0)
+		(property "Footprint" "0_pads:TestPoint_Pad_D0.4mm_Back"
+			(at 358.14 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11798,7 +12135,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 21.59 246.38 0)
+			(at 358.14 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11807,7 +12144,25 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 21.59 251.46 0)
+			(at 358.14 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" ""
+			(at 358.14 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number 1" ""
+			(at 358.14 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11816,12 +12171,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "d94bc768-bd4f-4528-be7a-2ec9aa877f32")
+			(uuid "094568c5-e6a9-4f0e-965c-d2c8da0d94f7")
 		)
 		(instances
-			(project ""
+			(project "transmitter"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e6015f1e-cbce-46f4-85e1-3d5463a17dc1"
-					(reference "TP1")
+					(reference "TP22")
 					(unit 1)
 				)
 			)
