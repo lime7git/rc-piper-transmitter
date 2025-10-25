@@ -30,7 +30,7 @@
       "/Project Architecture/LCD - Backlight/CTRL",
       "/Project Architecture/LCD - Backlight/BACKLIGHT_PWM"
     ],
-    "high_contrast_mode": 0,
+    "high_contrast_mode": 1,
     "net_color_mode": 2,
     "opacity": {
       "images": 0.6,
@@ -147,7 +147,7 @@
     "show_unconnected_nets": false,
     "show_zero_pad_nets": false,
     "sort_ascending": true,
-    "sorting_column": 2
+    "sorting_column": 0
   },
   "open_jobsets": [],
   "project": {
