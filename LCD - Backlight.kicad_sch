@@ -3538,7 +3538,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 83e4428e-662a-4a72-aa1e-21c6838119cf)
+			(uuid a687060c-412e-495d-8677-b502c9401a5f)
 		)
 	)
 	(netclass_flag ""
@@ -3951,7 +3951,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "0_pads:TestPoint_Pad_D0.4mm_Back"
+		(property "Footprint" "0_pads:TestPoint_Pad_D0.5mm_Back"
 			(at 378.46 133.35 0)
 			(effects
 				(font
@@ -4728,7 +4728,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "0_pads:TestPoint_Pad_D0.4mm_Back"
+		(property "Footprint" "0_pads:TestPoint_Pad_D0.5mm_Back"
 			(at 378.46 123.19 0)
 			(effects
 				(font
@@ -4968,7 +4968,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "0_pads:TestPoint_Pad_D0.4mm_Back"
+		(property "Footprint" "0_pads:TestPoint_Pad_D0.5mm_Back"
 			(at 378.46 138.43 0)
 			(effects
 				(font
@@ -5053,7 +5053,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "0_pads:TestPoint_Pad_D0.4mm_Back"
+		(property "Footprint" "0_pads:TestPoint_Pad_D0.5mm_Back"
 			(at 378.46 128.27 0)
 			(effects
 				(font

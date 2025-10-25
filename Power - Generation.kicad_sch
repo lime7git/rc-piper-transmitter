@@ -6520,21 +6520,6 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 287.02 102.87) (xy 307.34 102.87) (xy 307.34 90.17) (xy 287.02 90.17)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid cb5f30b4-0a10-46c2-beb4-40576c622024)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
 				(xy 214.884 100.33) (xy 214.884 107.696) (xy 229.87 107.696) (xy 229.87 100.33) (xy 246.38 100.33)
 				(xy 246.38 85.09) (xy 214.884 85.09)
 			)
@@ -6545,7 +6530,22 @@
 			(fill
 				(type none)
 			)
-			(uuid e5168161-d3fb-49f8-bdf4-7027ad017456)
+			(uuid 67be4a5a-2688-4396-a3e4-c033f5c01bec)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 287.02 102.87) (xy 307.34 102.87) (xy 307.34 90.17) (xy 287.02 90.17)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 6bc982b2-c866-4b00-9ecf-4966e5185f81)
 		)
 	)
 	(netclass_flag ""
@@ -6862,7 +6862,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "0_pads:TestPoint_Pad_D0.4mm_Back"
+		(property "Footprint" "0_pads:TestPoint_Pad_D0.5mm_Back"
 			(at 346.71 177.8 0)
 			(effects
 				(font
@@ -7297,7 +7297,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "0_pads:TestPoint_Pad_D0.4mm_Back"
+		(property "Footprint" "0_pads:TestPoint_Pad_D0.5mm_Back"
 			(at 346.71 167.64 0)
 			(effects
 				(font
@@ -8108,7 +8108,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "0_pads:TestPoint_Pad_D0.4mm_Back"
+		(property "Footprint" "0_pads:TestPoint_Pad_D0.5mm_Back"
 			(at 346.71 142.24 0)
 			(effects
 				(font
@@ -8803,7 +8803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "0_pads:TestPoint_Pad_D0.4mm_Back"
+		(property "Footprint" "0_pads:TestPoint_Pad_D0.5mm_Back"
 			(at 346.71 152.4 0)
 			(effects
 				(font
@@ -9367,7 +9367,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "0_pads:TestPoint_Pad_D0.4mm_Back"
+		(property "Footprint" "0_pads:TestPoint_Pad_D0.5mm_Back"
 			(at 346.71 162.56 0)
 			(effects
 				(font
@@ -9546,7 +9546,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "0_pads:TestPoint_Pad_D0.4mm_Back"
+		(property "Footprint" "0_pads:TestPoint_Pad_D0.5mm_Back"
 			(at 346.71 157.48 0)
 			(effects
 				(font
@@ -10796,7 +10796,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "0_pads:TestPoint_Pad_D0.4mm_Back"
+		(property "Footprint" "0_pads:TestPoint_Pad_D0.5mm_Back"
 			(at 346.71 172.72 0)
 			(effects
 				(font
@@ -11328,7 +11328,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "0_pads:TestPoint_Pad_D0.4mm_Back"
+		(property "Footprint" "0_pads:TestPoint_Pad_D0.5mm_Back"
 			(at 346.71 147.32 0)
 			(effects
 				(font
