@@ -15923,7 +15923,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_integrated_circuits:LQFP-144_1_STM"
 			(at 181.61 66.04 0)
 			(effects
 				(font

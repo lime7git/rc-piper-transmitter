@@ -3538,7 +3538,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 00afbb3a-47c8-462b-ae7c-15e48342d80a)
+			(uuid 83e4428e-662a-4a72-aa1e-21c6838119cf)
 		)
 	)
 	(netclass_flag ""
@@ -4424,7 +4424,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_integrated_circuits:SOT95P280X145-6N"
 			(at 264.16 197.79 0)
 			(effects
 				(font
