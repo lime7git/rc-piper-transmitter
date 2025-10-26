@@ -6530,7 +6530,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 67be4a5a-2688-4396-a3e4-c033f5c01bec)
+			(uuid 55d2ea6a-c444-4498-b045-c82c40c8337e)
 		)
 	)
 	(rule_area
@@ -6545,7 +6545,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 6bc982b2-c866-4b00-9ecf-4966e5185f81)
+			(uuid 5a02265c-1568-4030-8830-1e54b5549042)
 		)
 	)
 	(netclass_flag ""

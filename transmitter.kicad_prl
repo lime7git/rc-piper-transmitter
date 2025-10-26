@@ -30,7 +30,7 @@
       "/Project Architecture/LCD - Backlight/CTRL",
       "/Project Architecture/LCD - Backlight/BACKLIGHT_PWM"
     ],
-    "high_contrast_mode": 1,
+    "high_contrast_mode": 0,
     "net_color_mode": 2,
     "opacity": {
       "images": 0.6,
