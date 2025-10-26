@@ -1651,7 +1651,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor, small symbol"
+			(property "Description" "50V ±100ppm/℃ ±1% 10kΩ 0402"
 				(at 0 0 0)
 				(effects
 					(font
@@ -9300,6 +9300,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C1525"
+			(at 144.78 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "014026ce-106e-4c47-9720-d673c7d83ce4")
 		)
@@ -10220,7 +10229,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "50V ±100ppm/℃ ±1% 10kΩ 0402"
 			(at 134.62 92.71 0)
 			(effects
 				(font
@@ -10239,6 +10248,15 @@
 			)
 		)
 		(property "Supplier Part Number 1" "C25744"
+			(at 134.62 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C25744"
 			(at 134.62 92.71 0)
 			(effects
 				(font
@@ -11283,6 +11301,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C262648"
+			(at 271.78 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "14"
 			(uuid "264853cf-76da-46e3-b703-f2d3ffcd74c7")
 		)
@@ -11726,6 +11753,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C1525"
+			(at 134.62 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5595d032-bc61-460c-a5f7-dffd80b1fa88")
 		)
@@ -11873,6 +11909,15 @@
 			)
 		)
 		(property "Supplier Part Number 1" "C1779"
+			(at 134.62 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C1779"
 			(at 134.62 44.45 0)
 			(effects
 				(font
@@ -12039,6 +12084,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C11050"
+			(at 271.78 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "424cd5ad-19dd-4302-a39f-6f6c01460226")
 		)
@@ -12195,7 +12249,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "50V ±100ppm/℃ ±1% 10kΩ 0402"
 			(at 134.62 217.17 0)
 			(effects
 				(font
@@ -12214,6 +12268,15 @@
 			)
 		)
 		(property "Supplier Part Number 1" "C25744"
+			(at 134.62 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C25744"
 			(at 134.62 217.17 0)
 			(effects
 				(font
@@ -12868,6 +12931,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C1525"
+			(at 144.78 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "45883de4-8547-42a6-a5b6-f104203c41f0")
 		)
@@ -13099,6 +13171,15 @@
 			)
 		)
 		(property "Supplier Part Number 1" "C1779"
+			(at 134.62 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C1779"
 			(at 134.62 186.69 0)
 			(effects
 				(font

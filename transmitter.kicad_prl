@@ -75,7 +75,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
+    "visible_layers": "ffffffff_ffffffff_ffffd575_575570e7",
     "zone_display_mode": 1
   },
   "git": {
@@ -122,26 +122,26 @@
       13
     ],
     "col_widths": [
-      233,
+      149,
       10,
-      302,
+      194,
       10,
-      123,
-      102,
+      78,
+      66,
       10,
-      34,
-      134,
-      171,
+      22,
+      86,
+      110,
       10,
       10,
-      613,
-      45
+      935,
+      29
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
     "filter_by_net_name": true,
     "filter_by_netclass": true,
-    "filter_text": "LTDC",
+    "filter_text": "QSPI",
     "group_by_constraint": false,
     "group_by_netclass": false,
     "show_unconnected_nets": false,

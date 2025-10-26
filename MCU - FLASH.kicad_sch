@@ -1369,7 +1369,7 @@
 			(fill
 				(type none)
 			)
-			(uuid cfe09c73-91b4-4a11-996a-774a3b75cd2b)
+			(uuid a4a24814-7a19-40ed-88cf-819d0739840e)
 		)
 	)
 	(netclass_flag ""
@@ -1480,7 +1480,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2124f3c2-ce20-47e1-b6c2-91f7f5e88a02")
-		(property "Reference" "IC3"
+		(property "Reference" "U10"
 			(at 262.89 105.41 0)
 			(effects
 				(font
@@ -1593,6 +1593,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C41359590"
+			(at 243.84 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "c2a0a0e7-6b13-413c-a74c-fe0ac2f6451f")
 		)
@@ -1620,7 +1629,7 @@
 		(instances
 			(project ""
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5d39387f-cfb2-4114-9063-1879c6e2b9e7"
-					(reference "IC3")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -1765,6 +1774,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C1525"
+			(at 153.67 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "64169153-4623-49a6-ae33-645bad404797")
 		)
@@ -1845,6 +1863,15 @@
 			)
 		)
 		(property "Supplier Part Number 1" "C25744"
+			(at 153.67 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C25744"
 			(at 153.67 137.16 0)
 			(effects
 				(font

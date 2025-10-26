@@ -456,7 +456,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor, small symbol"
+			(property "Description" "50V ±800ppm/℃ ±1% 0Ω 0402"
 				(at 0 0 0)
 				(effects
 					(font
@@ -599,7 +599,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor, small symbol"
+			(property "Description" "50V ±100ppm/℃ ±1% 10kΩ 0402"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1586,7 +1586,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "50V ±100ppm/℃ ±1% 10kΩ 0402"
 			(at 151.13 90.17 0)
 			(effects
 				(font
@@ -1605,6 +1605,15 @@
 			)
 		)
 		(property "Supplier Part Number 1" "C25744"
+			(at 151.13 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C25744"
 			(at 151.13 90.17 0)
 			(effects
 				(font
@@ -1741,7 +1750,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "50V ±100ppm/℃ ±1% 10kΩ 0402"
 			(at 115.57 90.17 0)
 			(effects
 				(font
@@ -1760,6 +1769,15 @@
 			)
 		)
 		(property "Supplier Part Number 1" "C25744"
+			(at 115.57 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C25744"
 			(at 115.57 90.17 0)
 			(effects
 				(font
@@ -1826,7 +1844,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "50V ±800ppm/℃ ±1% 0Ω 0402"
 			(at 173.99 83.82 0)
 			(effects
 				(font
@@ -1845,6 +1863,15 @@
 			)
 		)
 		(property "Supplier Part Number 1" "C17168"
+			(at 173.99 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C17168"
 			(at 173.99 83.82 0)
 			(effects
 				(font
@@ -1999,7 +2026,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "50V ±100ppm/℃ ±1% 10kΩ 0402"
 			(at 124.46 90.17 0)
 			(effects
 				(font
@@ -2018,6 +2045,15 @@
 			)
 		)
 		(property "Supplier Part Number 1" "C25744"
+			(at 124.46 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C25744"
 			(at 124.46 90.17 0)
 			(effects
 				(font
@@ -2414,6 +2450,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C1525"
+			(at 132.08 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8529558d-6d7d-4176-b5c2-e55a98dadadc")
 		)
@@ -2476,7 +2521,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "50V ±100ppm/℃ ±1% 10kΩ 0402"
 			(at 106.68 90.17 0)
 			(effects
 				(font
@@ -2495,6 +2540,15 @@
 			)
 		)
 		(property "Supplier Part Number 1" "C25744"
+			(at 106.68 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C25744"
 			(at 106.68 90.17 0)
 			(effects
 				(font
@@ -2561,7 +2615,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "50V ±800ppm/℃ ±1% 0Ω 0402"
 			(at 168.91 81.28 0)
 			(effects
 				(font
@@ -2580,6 +2634,15 @@
 			)
 		)
 		(property "Supplier Part Number 1" "C17168"
+			(at 168.91 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C17168"
 			(at 168.91 81.28 0)
 			(effects
 				(font
@@ -2801,6 +2864,15 @@
 			)
 		)
 		(property "Supplier Part Number 1" "C6482"
+			(at 137.16 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C6482"
 			(at 137.16 83.82 0)
 			(effects
 				(font

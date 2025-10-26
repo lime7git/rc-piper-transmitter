@@ -2927,6 +2927,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C25905"
+			(at 124.46 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7d5381f7-2f0f-43a4-aaba-a2467b717ae8")
 		)
@@ -3100,6 +3109,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C1525"
+			(at 223.52 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fec5c883-06d0-4947-b81b-9e64e1fb51cb")
 		)
@@ -3246,6 +3264,15 @@
 			)
 		)
 		(property "Supplier Part Number 1" "C15850"
+			(at 214.63 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C15850"
 			(at 214.63 72.39 0)
 			(effects
 				(font
@@ -3493,6 +3520,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C25905"
+			(at 115.57 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7d5381f7-2f0f-43a4-aaba-a2467b717ae9")
 		)
@@ -3518,7 +3554,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97e51911-b182-4fd4-8c98-2815985f652f")
-		(property "Reference" "IC4"
+		(property "Reference" "U11"
 			(at 149.86 73.66 0)
 			(effects
 				(font
@@ -3631,6 +3667,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C5180249"
+			(at 133.35 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "03421fd7-d1b2-414f-94d1-c8c5cb33ddfe")
 		)
@@ -3652,7 +3697,7 @@
 		(instances
 			(project ""
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/97a2efac-bb12-4130-96cc-5d19fa63b112"
-					(reference "IC4")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -4216,6 +4261,15 @@
 			)
 		)
 		(property "Supplier 2" "https://www.tme.eu/pl/details/usb4085-gf-a/zlacza-usb-i-ieee1394/gct/"
+			(at 95.25 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C7095263"
 			(at 95.25 82.55 0)
 			(effects
 				(font

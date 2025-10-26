@@ -3453,7 +3453,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 5d600355-f4f1-4da7-9924-65d0717ce0ec)
+			(uuid 6d5a75d0-5384-4e71-8ec1-0d8f4b5f1b31)
 		)
 	)
 	(netclass_flag ""
@@ -3561,6 +3561,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C25792"
+			(at 134.62 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1b000edc-29de-4e03-bc88-821e3c216267")
 		)
@@ -3641,6 +3650,15 @@
 			)
 		)
 		(property "Supplier Part Number 1" "C25792"
+			(at 125.73 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C25792"
 			(at 125.73 76.2 0)
 			(effects
 				(font
@@ -3737,6 +3755,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C25792"
+			(at 116.84 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "810001e7-f64c-4500-8766-273f65ebd1c1")
 		)
@@ -3817,6 +3844,15 @@
 			)
 		)
 		(property "Supplier Part Number 1" "C25792"
+			(at 143.51 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C25792"
 			(at 143.51 76.2 0)
 			(effects
 				(font
@@ -3958,6 +3994,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C393941"
+			(at 182.88 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "CD"
 			(uuid "db9abecd-eb4e-492d-bb78-d6b5cc4d4438")
 		)
@@ -4069,6 +4114,15 @@
 			)
 		)
 		(property "Supplier Part Number 1" "C17168"
+			(at 110.49 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C17168"
 			(at 110.49 81.28 0)
 			(effects
 				(font
@@ -4297,6 +4351,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C25792"
+			(at 152.4 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1b000edc-29de-4e03-bc88-821e3c21626a")
 		)
@@ -4377,6 +4440,15 @@
 			)
 		)
 		(property "Supplier Part Number 1" "C25792"
+			(at 161.29 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C25792"
 			(at 161.29 76.2 0)
 			(effects
 				(font

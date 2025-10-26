@@ -1655,7 +1655,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor, small symbol"
+			(property "Description" "50V ±800ppm/℃ ±1% 0Ω 0402"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1798,7 +1798,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor, small symbol"
+			(property "Description" "50V ±100ppm/℃ ±1% 10kΩ 0402"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3538,7 +3538,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 0efac9d3-629a-477f-a2d7-d07165483a82)
+			(uuid 747b1dc0-9a42-4985-a5e4-0a40a4057b7f)
 		)
 	)
 	(netclass_flag ""
@@ -3647,6 +3647,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C1779"
+			(at 210.82 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6bbed1b4-5296-4d05-a697-7bcb1dfe2bc8")
 		)
@@ -3727,6 +3736,15 @@
 			)
 		)
 		(property "Supplier Part Number 1" "C1779"
+			(at 294.64 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C1779"
 			(at 294.64 106.68 0)
 			(effects
 				(font
@@ -3823,6 +3841,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C22977"
+			(at 276.86 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8f00d40b-d19c-4838-b8a8-8f1dc36f0332")
 		)
@@ -3900,6 +3927,15 @@
 			)
 		)
 		(property "Supplier Part Number 1" "C1017"
+			(at 201.93 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C1017"
 			(at 201.93 99.06 0)
 			(effects
 				(font
@@ -4052,7 +4088,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "50V ±800ppm/℃ ±1% 0Ω 0402"
 			(at 130.81 113.03 0)
 			(effects
 				(font
@@ -4071,6 +4107,15 @@
 			)
 		)
 		(property "Supplier Part Number 1" "C17168"
+			(at 130.81 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C17168"
 			(at 130.81 113.03 0)
 			(effects
 				(font
@@ -4156,6 +4201,15 @@
 			)
 		)
 		(property "Supplier Part Number 1" "C518881"
+			(at 254 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C518881"
 			(at 254 93.98 0)
 			(effects
 				(font
@@ -4318,6 +4372,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C1525"
+			(at 220.98 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1924cd1a-5b6e-4ca8-8dfb-cb10759dbd59")
 		)
@@ -4408,7 +4471,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "92144454-bfff-418e-90c0-eff798162a71")
-		(property "Reference" "IC2"
+		(property "Reference" "U9"
 			(at 254.762 112.014 0)
 			(effects
 				(font
@@ -4424,7 +4487,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0_integrated_circuits:SOT95P280X145-6N"
+		(property "Footprint" "SOT95P280X145-6N"
 			(at 264.16 197.79 0)
 			(effects
 				(font
@@ -4521,6 +4584,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C58756"
+			(at 240.03 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d14c51af-e291-40e3-9067-e5090d014cbc")
 		)
@@ -4542,7 +4614,7 @@
 		(instances
 			(project ""
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d532fde6-fcc8-4703-b00a-b5308b206554"
-					(reference "IC2")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -4611,6 +4683,15 @@
 			)
 		)
 		(property "Supplier Part Number 1" "C1017"
+			(at 201.93 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C1017"
 			(at 201.93 124.46 0)
 			(effects
 				(font
@@ -4850,6 +4931,15 @@
 			)
 		)
 		(property "Supplier Part Number 1" "C22936"
+			(at 276.86 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C22936"
 			(at 276.86 115.57 0)
 			(effects
 				(font
@@ -5223,7 +5313,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "50V ±100ppm/℃ ±1% 10kΩ 0402"
 			(at 137.16 119.38 0)
 			(effects
 				(font
@@ -5242,6 +5332,15 @@
 			)
 		)
 		(property "Supplier Part Number 1" "C25744"
+			(at 137.16 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C25744"
 			(at 137.16 119.38 0)
 			(effects
 				(font
@@ -5470,6 +5569,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C16772"
+			(at 237.49 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b78174ed-596c-4452-a0b7-d40a97db206e")
 		)
@@ -5613,6 +5721,15 @@
 			)
 		)
 		(property "Supplier Part Number 1" "C191023"
+			(at 276.86 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C191023"
 			(at 276.86 102.87 0)
 			(effects
 				(font
@@ -5767,6 +5884,15 @@
 			)
 		)
 		(property "Supplier Part Number 1" "C1779"
+			(at 284.48 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C1779"
 			(at 284.48 106.68 0)
 			(effects
 				(font

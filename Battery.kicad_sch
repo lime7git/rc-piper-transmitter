@@ -377,6 +377,24 @@
 					(hide yes)
 				)
 			)
+			(property "Supplier 1" "JLCPCB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part Number 1" "C131337"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "B2B-PH-K-S JST"
 				(at 0 0 0)
 				(effects
@@ -12270,6 +12288,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C16772"
+			(at 147.32 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3e2bcfe4-a8ec-435b-9a61-483f5a149028")
 		)
@@ -12356,6 +12383,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C17168"
+			(at 231.14 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7eb74bce-12df-4ba6-a991-93a89e59607f")
 		)
@@ -12434,6 +12470,15 @@
 			)
 		)
 		(property "Supplier Part Number 1" "C15849"
+			(at 212.09 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C15849"
 			(at 212.09 80.01 0)
 			(effects
 				(font
@@ -12530,6 +12575,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C11702"
+			(at 147.32 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "58b2f3b1-4426-4e1d-bc30-99df5b7cd830")
 		)
@@ -12609,6 +12663,15 @@
 			)
 		)
 		(property "Supplier Part Number 1" "C25744"
+			(at 223.52 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C25744"
 			(at 223.52 80.01 0)
 			(effects
 				(font
@@ -12769,6 +12832,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C7467248"
+			(at 161.29 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a370ed6e-ba73-49db-ac85-fb3cff4b7edb")
 		)
@@ -12810,7 +12882,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
 			(at 86.36 72.39 0)
 			(effects
 				(font
@@ -12847,6 +12919,24 @@
 			)
 		)
 		(property "Supplier Part Number 1" "C424347"
+			(at 86.36 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" ""
+			(at 86.36 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEST1" ""
 			(at 86.36 72.39 0)
 			(effects
 				(font
@@ -13351,6 +13441,15 @@
 			)
 		)
 		(property "Supplier Part Number 1" "C17168"
+			(at 217.17 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C17168"
 			(at 217.17 95.25 0)
 			(effects
 				(font
@@ -14000,6 +14099,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C2688637"
+			(at 189.23 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "24ba205a-10a4-4614-8182-e092030d87c9")
 		)
@@ -14108,6 +14216,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C131339"
+			(at 71.12 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6e7eb6bc-ed6f-4be0-bb83-96d143586420")
 		)
@@ -14199,6 +14316,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C11702"
+			(at 209.55 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2a20a41e-5d51-449a-8a54-aae2ca377d07")
 		)
@@ -14260,6 +14386,33 @@
 			)
 		)
 		(property "Description" "CONN HEADER VERT 2POS 2MM"
+			(at 71.12 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "JLCPCB"
+			(at 71.12 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C131337"
+			(at 71.12 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number 1" "C131337"
 			(at 71.12 72.39 0)
 			(effects
 				(font

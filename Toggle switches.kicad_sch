@@ -4798,6 +4798,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C1525"
+			(at 146.05 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5f754b2e-8566-4171-aa6f-660cb62dec52")
 		)
@@ -4953,6 +4962,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C1525"
+			(at 146.05 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "642aeb84-d309-44bb-80fb-913fe71079cb")
 		)
@@ -5039,6 +5057,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C25905"
+			(at 137.16 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "edc7662f-8b66-48ec-8be8-593a551b8665")
 		)
@@ -5117,6 +5144,15 @@
 			)
 		)
 		(property "Supplier Part Number 1" "C25905"
+			(at 137.16 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C25905"
 			(at 137.16 107.95 0)
 			(effects
 				(font
@@ -5280,6 +5316,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C25792"
+			(at 146.05 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9c32e0e7-4f2e-47a6-900f-99a5c8331c80")
 		)
@@ -5360,6 +5405,15 @@
 			)
 		)
 		(property "Supplier Part Number 1" "C191023"
+			(at 152.4 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C191023"
 			(at 152.4 115.57 0)
 			(effects
 				(font
@@ -5721,6 +5775,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C25792"
+			(at 146.05 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f7226b60-9d58-4246-9947-5ac923a4d9ce")
 		)
@@ -5801,6 +5864,15 @@
 			)
 		)
 		(property "Supplier Part Number 1" "C191023"
+			(at 152.4 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C191023"
 			(at 152.4 71.12 0)
 			(effects
 				(font
@@ -5953,6 +6025,15 @@
 			)
 		)
 		(property "Supplier Part Number 1" "C131339"
+			(at 176.53 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C131339"
 			(at 176.53 86.36 0)
 			(effects
 				(font

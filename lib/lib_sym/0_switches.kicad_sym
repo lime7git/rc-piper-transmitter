@@ -375,7 +375,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "0_switches:SW_TS-1088-AR02016"
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
 			(at 0 5.08 0)
 			(effects
 				(font
